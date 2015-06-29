@@ -15,6 +15,8 @@
 		9E7D798A1B38B447001E4482 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E7D79891B38B447001E4482 /* Images.xcassets */; };
 		9E7D798D1B38B447001E4482 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E7D798B1B38B447001E4482 /* LaunchScreen.xib */; };
 		9E7D79991B38B447001E4482 /* nubank_testeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D79981B38B447001E4482 /* nubank_testeTests.swift */; };
+		9E9E35991B398C3F00C553D4 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E35981B398C3F00C553D4 /* UIColorExtension.swift */; };
+		9E9E359C1B398F8200C553D4 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9E359B1B398F8200C553D4 /* Bill.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		9E7D79921B38B447001E4482 /* nubank testeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nubank testeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7D79971B38B447001E4482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E7D79981B38B447001E4482 /* nubank_testeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nubank_testeTests.swift; sourceTree = "<group>"; };
+		9E9E35981B398C3F00C553D4 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		9E9E359B1B398F8200C553D4 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bill.swift; path = Model/Bill.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		9E7D797B1B38B447001E4482 /* nubank teste */ = {
 			isa = PBXGroup;
 			children = (
+				9E9E359A1B398F4000C553D4 /* Model */,
+				9E9E35971B398C1F00C553D4 /* Uitls */,
 				9E7D797E1B38B447001E4482 /* AppDelegate.swift */,
 				9E7D79801B38B447001E4482 /* RootViewController.swift */,
 				9E7D79821B38B447001E4482 /* DataViewController.swift */,
@@ -116,6 +122,22 @@
 				9E7D79971B38B447001E4482 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E9E35971B398C1F00C553D4 /* Uitls */ = {
+			isa = PBXGroup;
+			children = (
+				9E9E35981B398C3F00C553D4 /* UIColorExtension.swift */,
+			);
+			name = Uitls;
+			sourceTree = "<group>";
+		};
+		9E9E359A1B398F4000C553D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E9E359B1B398F8200C553D4 /* Bill.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +242,9 @@
 			files = (
 				9E7D79811B38B447001E4482 /* RootViewController.swift in Sources */,
 				9E7D79851B38B447001E4482 /* ModelController.swift in Sources */,
+				9E9E35991B398C3F00C553D4 /* UIColorExtension.swift in Sources */,
 				9E7D79831B38B447001E4482 /* DataViewController.swift in Sources */,
+				9E9E359C1B398F8200C553D4 /* Bill.swift in Sources */,
 				9E7D797F1B38B447001E4482 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +441,7 @@
 				9E7D799E1B38B447001E4482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E7D799F1B38B447001E4482 /* Build configuration list for PBXNativeTarget "nubank testeTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +450,7 @@
 				9E7D79A11B38B447001E4482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

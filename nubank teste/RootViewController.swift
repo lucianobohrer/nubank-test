@@ -11,13 +11,14 @@ import UIKit
 class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
     var pageViewController: UIPageViewController?
+    let shape = CAShapeLayer()
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         // Configure the page view controller and add it as a child view controller.
-        self.pageViewController = UIPageViewController(transitionStyle: .PageCurl, navigationOrientation: .Horizontal, options: nil)
+        self.pageViewController = UIPageViewController(transitionStyle: .Scroll, navigationOrientation: .Horizontal, options: nil)
         self.pageViewController!.delegate = self
 
         let startingViewController: DataViewController = self.modelController.viewControllerAtIndex(0, storyboard: self.storyboard!)!
@@ -27,8 +28,8 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         self.pageViewController!.dataSource = self.modelController
 
         self.addChildViewController(self.pageViewController!)
+        
         self.view.addSubview(self.pageViewController!.view)
-
         // Set the page view controller's bounds using an inset rect so that self's view is visible around the edges of the pages.
         var pageViewRect = self.view.bounds
         self.pageViewController!.view.frame = pageViewRect
@@ -37,6 +38,32 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
         // Add the page view controller's gesture recognizers to the book view controller's view so that the gestures are started more easily.
         self.view.gestureRecognizers = self.pageViewController!.gestureRecognizers
+        
+        var topView:UIView = UIView()
+        topView.frame = CGRectMake(0, 0, self.view.frame.width, 80)
+        topView.backgroundColor = UIColor.whiteColor()
+        
+        
+        topView.layer.addSublayer(shape)
+        shape.opacity = 1.0
+        shape.lineWidth = 0
+        shape.lineJoin = kCALineJoinMiter
+        //shape.strokeColor = UIColor(hue: 0.786, saturation: 0.79, brightness: 0.53, alpha: 1.0).CGColor
+        shape.fillColor = UIColor(rgba: "#7ED321").CGColor
+        
+        let path = UIBezierPath()
+        path.moveToPoint(CGPointMake(topView.frame.width/2, 70))
+        path.addLineToPoint(CGPointMake((topView.frame.width/2)-10, 80))
+        path.addLineToPoint(CGPointMake((topView.frame.width/2)+10, 80))
+        path.closePath()
+        shape.path = path.CGPath
+        
+        self.view.addSubview(topView)
+       
+    }
+    
+    func setArrowColor(color: String){
+       shape.fillColor = UIColor(rgba: color).CGColor
     }
 
     override func didReceiveMemoryWarning() {
@@ -49,6 +76,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         // In more complex implementations, the model controller may be passed to the view controller.
         if _modelController == nil {
             _modelController = ModelController()
+            _modelController?.delegate = self;
         }
         return _modelController!
     }

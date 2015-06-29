@@ -10,12 +10,15 @@ import UIKit
 
 class DataViewController: UIViewController {
 
-    @IBOutlet weak var dataLabel: UILabel!
+    @IBOutlet weak var headerView: UIView!
     var dataObject: AnyObject?
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let bill = dataObject as? Bill {
+            self.headerView.backgroundColor = UIColor(rgba: bill.colorCode)
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -26,11 +29,12 @@ class DataViewController: UIViewController {
 
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        if let obj: AnyObject = dataObject {
+        
+        /*if let obj: AnyObject = dataObject {
             self.dataLabel!.text = obj.description
         } else {
             self.dataLabel!.text = ""
-        }
+        }*/
     }
 
 
