@@ -59,7 +59,8 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         shape.path = path.CGPath
         
         self.view.addSubview(topView)
-       
+       var billServices = BillServices()
+        billServices.loadBills()
     }
     
     func setArrowColor(color: String){

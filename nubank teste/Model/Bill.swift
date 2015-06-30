@@ -8,6 +8,23 @@
 
 import UIKit
 
-class Bill: NSObject {
+class Bill: Mappable {
     var colorCode:String!
+    
+   
+    
+    
+    required init(){}
+    
+    required init?(_ map: Map) {
+        mapping(map)
+    }
+    
+    
+    // Mappable
+    func mapping(map: Map) {
+        
+                
+    }
+
 }

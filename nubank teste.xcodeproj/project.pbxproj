@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E1D26ED1B42C16C0046C97E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26E01B42C16C0046C97E /* Alamofire.swift */; };
+		9E1D26EE1B42C16C0046C97E /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26E31B42C16C0046C97E /* FromJSON.swift */; };
+		9E1D26EF1B42C16C0046C97E /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26E41B42C16C0046C97E /* Mapper.swift */; };
+		9E1D26F01B42C16C0046C97E /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26E51B42C16C0046C97E /* Operators.swift */; };
+		9E1D26F11B42C16C0046C97E /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26E61B42C16C0046C97E /* ToJSON.swift */; };
+		9E1D26F21B42C16C0046C97E /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26E81B42C16C0046C97E /* DateTransform.swift */; };
+		9E1D26F31B42C16C0046C97E /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26E91B42C16C0046C97E /* ISO8601DateTransform.swift */; };
+		9E1D26F41B42C16C0046C97E /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26EA1B42C16C0046C97E /* TransformOf.swift */; };
+		9E1D26F51B42C16C0046C97E /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26EB1B42C16C0046C97E /* TransformType.swift */; };
+		9E1D26F61B42C16C0046C97E /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26EC1B42C16C0046C97E /* URLTransform.swift */; };
+		9E1D26F91B42C1C60046C97E /* BillServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26F81B42C1C60046C97E /* BillServices.swift */; };
+		9E1D26FB1B42C3F90046C97E /* BillApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26FA1B42C3F90046C97E /* BillApiResponse.swift */; };
+		9E1D26FD1B42C84B0046C97E /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26FC1B42C84B0046C97E /* Summary.swift */; };
+		9E1D26FF1B42CA380046C97E /* BillItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26FE1B42CA380046C97E /* BillItem.swift */; };
+		9E1D27011B42CD6E0046C97E /* CustomDateNuBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D27001B42CD6E0046C97E /* CustomDateNuBank.swift */; };
+		9E1D27031B42CEF80046C97E /* NubankState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D27021B42CEF80046C97E /* NubankState.swift */; };
 		9E7D797F1B38B447001E4482 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D797E1B38B447001E4482 /* AppDelegate.swift */; };
 		9E7D79811B38B447001E4482 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D79801B38B447001E4482 /* RootViewController.swift */; };
 		9E7D79831B38B447001E4482 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D79821B38B447001E4482 /* DataViewController.swift */; };
@@ -30,6 +46,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E1D26E01B42C16C0046C97E /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		9E1D26E31B42C16C0046C97E /* FromJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromJSON.swift; sourceTree = "<group>"; };
+		9E1D26E41B42C16C0046C97E /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		9E1D26E51B42C16C0046C97E /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		9E1D26E61B42C16C0046C97E /* ToJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToJSON.swift; sourceTree = "<group>"; };
+		9E1D26E81B42C16C0046C97E /* DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTransform.swift; sourceTree = "<group>"; };
+		9E1D26E91B42C16C0046C97E /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		9E1D26EA1B42C16C0046C97E /* TransformOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOf.swift; sourceTree = "<group>"; };
+		9E1D26EB1B42C16C0046C97E /* TransformType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformType.swift; sourceTree = "<group>"; };
+		9E1D26EC1B42C16C0046C97E /* URLTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLTransform.swift; sourceTree = "<group>"; };
+		9E1D26F81B42C1C60046C97E /* BillServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillServices.swift; sourceTree = "<group>"; };
+		9E1D26FA1B42C3F90046C97E /* BillApiResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillApiResponse.swift; sourceTree = "<group>"; };
+		9E1D26FC1B42C84B0046C97E /* Summary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
+		9E1D26FE1B42CA380046C97E /* BillItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillItem.swift; sourceTree = "<group>"; };
+		9E1D27001B42CD6E0046C97E /* CustomDateNuBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDateNuBank.swift; sourceTree = "<group>"; };
+		9E1D27021B42CEF80046C97E /* NubankState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NubankState.swift; sourceTree = "<group>"; };
 		9E7D79791B38B447001E4482 /* nubank teste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nubank teste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7D797D1B38B447001E4482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E7D797E1B38B447001E4482 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +96,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E1D26E11B42C16C0046C97E /* JSONObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				9E1D26E21B42C16C0046C97E /* Core */,
+				9E1D26E71B42C16C0046C97E /* Transforms */,
+			);
+			path = JSONObjectMapper;
+			sourceTree = "<group>";
+		};
+		9E1D26E21B42C16C0046C97E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9E1D26E31B42C16C0046C97E /* FromJSON.swift */,
+				9E1D26E41B42C16C0046C97E /* Mapper.swift */,
+				9E1D26E51B42C16C0046C97E /* Operators.swift */,
+				9E1D26E61B42C16C0046C97E /* ToJSON.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9E1D26E71B42C16C0046C97E /* Transforms */ = {
+			isa = PBXGroup;
+			children = (
+				9E1D26E81B42C16C0046C97E /* DateTransform.swift */,
+				9E1D26E91B42C16C0046C97E /* ISO8601DateTransform.swift */,
+				9E1D26EA1B42C16C0046C97E /* TransformOf.swift */,
+				9E1D26EB1B42C16C0046C97E /* TransformType.swift */,
+				9E1D26EC1B42C16C0046C97E /* URLTransform.swift */,
+				9E1D27001B42CD6E0046C97E /* CustomDateNuBank.swift */,
+				9E1D27021B42CEF80046C97E /* NubankState.swift */,
+			);
+			path = Transforms;
+			sourceTree = "<group>";
+		};
+		9E1D26F71B42C1AD0046C97E /* services */ = {
+			isa = PBXGroup;
+			children = (
+				9E1D26F81B42C1C60046C97E /* BillServices.swift */,
+			);
+			name = services;
+			sourceTree = "<group>";
+		};
 		9E7D79701B38B447001E4482 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +159,7 @@
 		9E7D797B1B38B447001E4482 /* nubank teste */ = {
 			isa = PBXGroup;
 			children = (
+				9E1D26F71B42C1AD0046C97E /* services */,
 				9E9E359A1B398F4000C553D4 /* Model */,
 				9E9E35971B398C1F00C553D4 /* Uitls */,
 				9E7D797E1B38B447001E4482 /* AppDelegate.swift */,
@@ -127,6 +202,8 @@
 		9E9E35971B398C1F00C553D4 /* Uitls */ = {
 			isa = PBXGroup;
 			children = (
+				9E1D26E01B42C16C0046C97E /* Alamofire.swift */,
+				9E1D26E11B42C16C0046C97E /* JSONObjectMapper */,
 				9E9E35981B398C3F00C553D4 /* UIColorExtension.swift */,
 			);
 			name = Uitls;
@@ -136,6 +213,9 @@
 			isa = PBXGroup;
 			children = (
 				9E9E359B1B398F8200C553D4 /* Bill.swift */,
+				9E1D26FA1B42C3F90046C97E /* BillApiResponse.swift */,
+				9E1D26FC1B42C84B0046C97E /* Summary.swift */,
+				9E1D26FE1B42CA380046C97E /* BillItem.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -241,11 +321,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E7D79811B38B447001E4482 /* RootViewController.swift in Sources */,
+				9E1D26F31B42C16C0046C97E /* ISO8601DateTransform.swift in Sources */,
+				9E1D26F01B42C16C0046C97E /* Operators.swift in Sources */,
+				9E1D26FF1B42CA380046C97E /* BillItem.swift in Sources */,
 				9E7D79851B38B447001E4482 /* ModelController.swift in Sources */,
+				9E1D26F11B42C16C0046C97E /* ToJSON.swift in Sources */,
+				9E1D27011B42CD6E0046C97E /* CustomDateNuBank.swift in Sources */,
+				9E1D26FD1B42C84B0046C97E /* Summary.swift in Sources */,
+				9E1D26F41B42C16C0046C97E /* TransformOf.swift in Sources */,
+				9E1D26F91B42C1C60046C97E /* BillServices.swift in Sources */,
+				9E1D27031B42CEF80046C97E /* NubankState.swift in Sources */,
 				9E9E35991B398C3F00C553D4 /* UIColorExtension.swift in Sources */,
+				9E1D26FB1B42C3F90046C97E /* BillApiResponse.swift in Sources */,
 				9E7D79831B38B447001E4482 /* DataViewController.swift in Sources */,
+				9E1D26EF1B42C16C0046C97E /* Mapper.swift in Sources */,
 				9E9E359C1B398F8200C553D4 /* Bill.swift in Sources */,
+				9E1D26F51B42C16C0046C97E /* TransformType.swift in Sources */,
+				9E1D26F21B42C16C0046C97E /* DateTransform.swift in Sources */,
+				9E1D26F61B42C16C0046C97E /* URLTransform.swift in Sources */,
 				9E7D797F1B38B447001E4482 /* AppDelegate.swift in Sources */,
+				9E1D26ED1B42C16C0046C97E /* Alamofire.swift in Sources */,
+				9E1D26EE1B42C16C0046C97E /* FromJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
