@@ -23,6 +23,7 @@
 		9E1D26FF1B42CA380046C97E /* BillItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26FE1B42CA380046C97E /* BillItem.swift */; };
 		9E1D27011B42CD6E0046C97E /* CustomDateNuBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D27001B42CD6E0046C97E /* CustomDateNuBank.swift */; };
 		9E1D27031B42CEF80046C97E /* NubankState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D27021B42CEF80046C97E /* NubankState.swift */; };
+		9E1D27051B42DC550046C97E /* nubankbarstatus.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E1D27041B42DC550046C97E /* nubankbarstatus.png */; };
 		9E7D797F1B38B447001E4482 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D797E1B38B447001E4482 /* AppDelegate.swift */; };
 		9E7D79811B38B447001E4482 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D79801B38B447001E4482 /* RootViewController.swift */; };
 		9E7D79831B38B447001E4482 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D79821B38B447001E4482 /* DataViewController.swift */; };
@@ -62,6 +63,7 @@
 		9E1D26FE1B42CA380046C97E /* BillItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillItem.swift; sourceTree = "<group>"; };
 		9E1D27001B42CD6E0046C97E /* CustomDateNuBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDateNuBank.swift; sourceTree = "<group>"; };
 		9E1D27021B42CEF80046C97E /* NubankState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NubankState.swift; sourceTree = "<group>"; };
+		9E1D27041B42DC550046C97E /* nubankbarstatus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nubankbarstatus.png; sourceTree = "<group>"; };
 		9E7D79791B38B447001E4482 /* nubank teste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nubank teste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7D797D1B38B447001E4482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E7D797E1B38B447001E4482 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +140,14 @@
 			name = services;
 			sourceTree = "<group>";
 		};
+		9E1D27061B42DC590046C97E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9E1D27041B42DC550046C97E /* nubankbarstatus.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		9E7D79701B38B447001E4482 = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +187,7 @@
 		9E7D797C1B38B447001E4482 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9E1D27061B42DC590046C97E /* images */,
 				9E7D797D1B38B447001E4482 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -302,6 +313,7 @@
 			files = (
 				9E7D79881B38B447001E4482 /* Main.storyboard in Resources */,
 				9E7D798D1B38B447001E4482 /* LaunchScreen.xib in Resources */,
+				9E1D27051B42DC550046C97E /* nubankbarstatus.png in Resources */,
 				9E7D798A1B38B447001E4482 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

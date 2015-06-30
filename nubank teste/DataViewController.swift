@@ -11,13 +11,17 @@ import UIKit
 class DataViewController: UIViewController {
 
     @IBOutlet weak var headerView: UIView!
+    @IBOutlet weak var lblValue: UILabel!
+    @IBOutlet weak var lblDate: UILabel!
     var dataObject: AnyObject?
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let bill = dataObject as? Bill {
-            self.headerView.backgroundColor = UIColor(rgba: bill.colorCode)
+        if let bill = dataObject as? BillApiResponse {
+            self.headerView.backgroundColor = UIColor(rgba: bill.colorCode())
+            self.lblValue.text = bill.formatCurrency(bill.summary.totalBalance!)
+            self.lblDate.text = bill.summary.formatDataVenc(bill.summary.dueDate!)
         }
         // Do any additional setup after loading the view, typically from a nib.
     }

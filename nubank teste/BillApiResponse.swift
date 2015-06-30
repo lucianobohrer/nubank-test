@@ -35,7 +35,35 @@ class BillApiResponse: Mappable {
             barcode  <= map["bill.barcode"]
             id  <= map["bill.id"]
             linhaDigital  <= map["bill.linha_digitavel"]
-            state  <= map["bill.state"]
+            state  <= (map["bill.state"], NubankState())//map["bill.state"]
             summary <= map["bill.summary"]
         }
+    
+    
+    func colorCode ()->String{
+        if(state.rawValue == "open") {
+             return "#40AAB9"
+        }
+        if(state.rawValue == "closed") {
+             return "#7ED321"
+        }
+        if(state.rawValue == "overdue") {
+             return "#E5615C"
+        }
+        if(state.rawValue == "future") {
+             return "#F5A623"
+        }
+
+             return "#ffffff"
+     
+    }
+    
+    func formatCurrency(currentString: Double) -> String {
+       
+        let formatter = NSNumberFormatter()
+        formatter.numberStyle = NSNumberFormatterStyle.CurrencyStyle
+        formatter.locale = NSLocale(localeIdentifier: "pt_BR")
+        var numberFromField = (currentString)/100
+        return formatter.stringFromNumber(numberFromField)!
+    }
 }

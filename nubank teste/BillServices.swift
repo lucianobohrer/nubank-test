@@ -11,6 +11,7 @@ import UIKit
 
 class BillServices: NSObject {
     let url:String = "https://s3-sa-east-1.amazonaws.com/mobile-challenge/bill/bill_new.json"
+    var delegate: RootViewController!
     
     func loadBills() {
         
@@ -18,9 +19,8 @@ class BillServices: NSObject {
             .responseJSON { (request, response, JSON, error) in
                 if(error == nil) {
                     let tempDatasource = Mapper<BillApiResponse>().mapArray(JSON)
-                    
-                    println(tempDatasource?[0].state)
-                    println("CLOSEDATE:" + tempDatasource![0].summary.closeDate!.description)
+                    println(JSON)
+                    self.delegate.setBills(tempDatasource!)
                 } else {
                 
                 }

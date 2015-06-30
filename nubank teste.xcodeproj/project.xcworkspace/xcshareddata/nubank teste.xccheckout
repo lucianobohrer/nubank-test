@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5B5DFD04-47FD-47E8-9A48-C320A5377D1E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5BA3D6B1CF5A3806FD13CA3A45E29C2185EEEF7D</key>
+		<string>https://bitbucket.org/digoreis/nubank.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>nubank teste.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5BA3D6B1CF5A3806FD13CA3A45E29C2185EEEF7D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/digoreis/nubank.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5BA3D6B1CF5A3806FD13CA3A45E29C2185EEEF7D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5BA3D6B1CF5A3806FD13CA3A45E29C2185EEEF7D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>nubank%20teste</string>
+		</dict>
+	</array>
+</dict>
+</plist>

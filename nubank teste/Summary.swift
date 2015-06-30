@@ -43,4 +43,20 @@ class Summary: Mappable {
         totalCumulative  <= map["total_cumulative"]
         
     }
+    
+    func formatDataVenc(dt:NSDate) -> String {
+        let calendar = NSCalendar.currentCalendar()
+       let formatter = NSDateFormatter()
+        let components = calendar.components(.DayCalendarUnit, fromDate:  dt)
+        formatter.locale = NSLocale(localeIdentifier: "pt_BR_POSIX")
+        formatter.dateFormat = "MMM"
+        
+        
+        var strVenc = String(format: "Vencimento %d %@", components.day , formatter.stringFromDate(dt).uppercaseString)
+        
+        
+        
+        
+        return strVenc
+    }
 }

@@ -22,20 +22,15 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
 
     var pageData = NSArray()
     var delegate:RootViewController!
-
+    var billServices:BillServices!
+    
     override init() {
         super.init()
         // Create the data model.
         //let dateFormatter = NSDateFormatter()
-        var bill1 = Bill()
-        bill1.colorCode = "#7ED321"
-        var bill2 = Bill()
-        bill2.colorCode = "#E5615C"
-        var bill3 = Bill()
-        bill3.colorCode = "#40AAB9"
-        var bill4 = Bill()
-        bill4.colorCode = "#F5A623"
-        pageData = [bill1,bill2,bill3,bill4]
+       
+        
+        
     }
 
     func viewControllerAtIndex(index: Int, storyboard: UIStoryboard) -> DataViewController? {
@@ -65,13 +60,13 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         var index = self.indexOfViewController(viewController as! DataViewController)
         if (index == 0) || (index == NSNotFound) {
             if (index == 0) {
-                let bill = self.pageData[index] as? Bill
-                delegate.setArrowColor(bill!.colorCode)
+                let bill = self.pageData[index] as? BillApiResponse
+                delegate.setArrowColor(bill!.colorCode())
             }
             return nil
         }
-        let bill = self.pageData[index] as? Bill
-        delegate.setArrowColor(bill!.colorCode)
+        let bill = self.pageData[index] as? BillApiResponse
+        delegate.setArrowColor(bill!.colorCode())
         index--
         return self.viewControllerAtIndex(index, storyboard: viewController.storyboard!)
     }
@@ -81,8 +76,8 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         if index == NSNotFound {
             return nil
         }
-        let bill = self.pageData[index] as? Bill
-        delegate.setArrowColor(bill!.colorCode)
+        let bill = self.pageData[index] as? BillApiResponse
+        delegate.setArrowColor(bill!.colorCode())
         index++
         if index == self.pageData.count {
             return nil
