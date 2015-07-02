@@ -3,8 +3,50 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
-	<dict/>
+	<dict>
+		<key>Pods-nubank teste-Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-nubank teste.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-nubank testeTests-Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-nubank testeTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>2A5CCC4F90A36AF44B876314</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>34D61E5F03E9E8CA2874D92F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>388626BF048817F52B13B935</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>76469FDC88386C299D3088A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

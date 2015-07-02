@@ -20,8 +20,12 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         // Configure the page view controller and add it as a child view controller.
         billServices = BillServices()
-        billServices.delegate = self
-        billServices.loadBills()
+        billServices.loadBills({ items in
+            self.modelController.pageData = items
+            self.loadPageBills()
+            }, errorFunc: {error in
+                println(error.description)
+            })
     }
     
     func setBills(itens:NSArray){

@@ -15,7 +15,7 @@ class BillItem: Mappable {
     var href: String?
     var index: Double?
     var postDate: NSDate?
-    var title: Double?
+    var title: String?
     
     required init(){}
     

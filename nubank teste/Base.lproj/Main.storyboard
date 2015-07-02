@@ -34,8 +34,32 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="8Wq-Kx-9WR">
+                                <rect key="frame" x="0.0" y="300" width="609" height="300"/>
+                                <color key="backgroundColor" red="0.80486505679999998" green="0.80486505679999998" blue="0.80486505679999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="6Ny-mX-2u4"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="billItem" id="cCZ-AS-a4b">
+                                        <rect key="frame" x="0.0" y="0.0" width="609" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cCZ-AS-a4b" id="YPx-J2-6KA">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="hzS-jB-y9W" id="kBd-f8-dYH"/>
+                                    <outlet property="delegate" destination="hzS-jB-y9W" id="NMc-T9-xZs"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="a4F-Wq-f2I" firstAttribute="top" secondItem="8Wq-Kx-9WR" secondAttribute="bottom" id="qIP-dd-cYn"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="headerView" destination="yOV-IN-7eo" id="nao-jk-moO"/>

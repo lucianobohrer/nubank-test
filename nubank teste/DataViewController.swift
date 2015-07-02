@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DataViewController: UIViewController {
+class DataViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var headerView: UIView!
     @IBOutlet weak var lblValue: UILabel!
@@ -41,6 +41,30 @@ class DataViewController: UIViewController {
         }*/
     }
 
+    //#DATASOURCE
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if let bill = dataObject as? BillApiResponse {
+            return bill.lines!.count
+        }
+        return 0
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        var cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier("billItem") as! UITableViewCell
+        if let bill = dataObject as? BillApiResponse {
+            var line = bill.lines![indexPath.row] as BillItem
+            cell.textLabel?.text = line.title
+        }
+        return cell
+    }
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+    }
+    
+    
+    
 
 }
 

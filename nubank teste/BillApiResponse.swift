@@ -22,6 +22,7 @@ class BillApiResponse: Mappable {
     var linhaDigital: String?
     var state: BillStates!
     var summary: Summary!
+    var lines: [BillItem]?
         
         required init(){}
         
@@ -37,6 +38,7 @@ class BillApiResponse: Mappable {
             linhaDigital  <= map["bill.linha_digitavel"]
             state  <= (map["bill.state"], NubankState())//map["bill.state"]
             summary <= map["bill.summary"]
+            lines <= map["bill.line_items"]
         }
     
     
