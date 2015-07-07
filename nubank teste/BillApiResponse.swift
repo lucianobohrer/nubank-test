@@ -66,6 +66,7 @@ class BillApiResponse: Mappable {
         formatter.numberStyle = NSNumberFormatterStyle.CurrencyStyle
         formatter.locale = NSLocale(localeIdentifier: "pt_BR")
         var numberFromField = (currentString)/100
+        formatter.currencySymbol = "R$ "
         return formatter.stringFromNumber(numberFromField)!
     }
 }

@@ -13,7 +13,7 @@ import Alamofire
 class BillServices: NSObject {
     let url:String = "https://s3-sa-east-1.amazonaws.com/mobile-challenge/bill/bill_new.json"
     
-    func loadBills(returnFunc: NSArray -> Void,errorFunc: NSError -> Void) {
+    func loadBills(returnFunc: NSArray -> Void,errorFunc: NSString -> Void) {
         
         request(.GET, url, parameters: nil)
             .responseJSON { (request, response, JSON, error) in
@@ -23,7 +23,15 @@ class BillServices: NSObject {
                     //self.delegate.setBills(tempDatasource!)
                     returnFunc(tempDatasource!)
                 } else {
-                    errorFunc(error!)
+                    if(response?.statusCode >= 400 && response?.statusCode <= 499){
+                        errorFunc("Houve algum erro com o seu pedido.")
+                        return;
+                    }
+                    if(response?.statusCode >=  500 && response?.statusCode <=  599) {
+                        errorFunc("Desculpe, estamos enfrentando problemas técnicos. Por favor, tente novamente mais tarde.")
+                        return;
+                    }
+                    errorFunc("Parece que você está sem internet! Por favor, verifique a sua conexão e tente novamente.")
                 }
 
         }

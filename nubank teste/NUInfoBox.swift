@@ -21,17 +21,20 @@ class NUInfoBox: UIView {
     @IBOutlet var lblNoPay: UILabel!
     @IBOutlet var lblTax: UILabel!
     
+    var border:UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         self.translatesAutoresizingMaskIntoConstraints()
-        /*var border = CALayer()
-        border.backgroundColor = UIColor.lightGrayColor().CGColor
-        border.frame = CGRect(x: 0, y: self.frame.height-1.0, width: self.frame.width, height: 1.0)
-        self.layer.addSublayer(border)*/
+        border = UIView()
+        border.backgroundColor = UIColor(rgba: "#cccccc")
+        border.frame = CGRect(x: 0, y: heightConstant.constant-1.0, width: self.frame.width, height: 1.0)
+        self.addSubview(border)
     }
     
     func configHeight(height:CGFloat) {
         heightConstant.constant =  height
+        border.frame = CGRect(x: 0, y: heightConstant.constant-1.0, width: self.frame.width, height: 1.0)
     }
     
     func configDetail(bill : BillApiResponse){

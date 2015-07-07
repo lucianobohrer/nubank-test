@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "19B27ABA3C0CEE006BD76C7F"
+               BlueprintIdentifier = "AF006C6FAED2DF1F9E94C6B9"
                BuildableName = "Pods_nubank_teste.framework"
                BlueprintName = "Pods-nubank teste"
                ReferencedContainer = "container:Pods.xcodeproj">

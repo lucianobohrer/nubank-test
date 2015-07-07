@@ -13,6 +13,9 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
     var pageViewController: UIPageViewController?
     var billServices : BillServices!
     let shape = CAShapeLayer()
+    var topview : NUMonthSelect!
+    var indexPage:Int = 0
+    var error:NUAlertError!
 
 
     override func viewDidLoad() {
@@ -26,7 +29,9 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
             self.modelController.pageData = items
             self.loadPageBills()
             }, errorFunc: {error in
-                println(error.description)
+                self.error = NUAlertError(frame: self.view.frame)
+                self.error.setErrorText(error.description)
+                self.view.addSubview(self.error)
             })
     }
     
@@ -60,40 +65,9 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         // Add the page view controller's gesture recognizers to the book view controller's view so that the gestures are started more easily.
         self.view.gestureRecognizers = self.pageViewController!.gestureRecognizers
         
-        var topView:UIView = UIView()
-        topView.frame = CGRectMake(0, 0, self.view.frame.width, 80)
-        topView.backgroundColor = UIColor.clearColor()
-        topView.translatesAutoresizingMaskIntoConstraints()
-        var backgroundImage:UIImage = UIImage(named:"nubankbarstatus")!;
+        self.topview = NUMonthSelect(frame: CGRectMake(0, 0, self.view.frame.width, 80))
         
-        UIGraphicsBeginImageContext(topView.bounds.size);
-        
-        var imagePosition:CGRect = CGRectMake((topView.bounds.size.width / 2)  - (backgroundImage.size.width / 2),
-        (topView.bounds.size.height / 2) - (backgroundImage.size.height / 2),
-        backgroundImage.size.width,
-        backgroundImage.size.height)
-        
-        backgroundImage.drawInRect(imagePosition)
-        var image:UIImage = UIGraphicsGetImageFromCurrentImageContext();
-        UIGraphicsEndImageContext();
-        
-        topView.backgroundColor = UIColor(patternImage: image)
-        
-       /* topView.layer.addSublayer(shape)
-        shape.opacity = 1.0
-        shape.lineWidth = 0
-        shape.lineJoin = kCALineJoinMiter
-        //shape.strokeColor = UIColor(hue: 0.786, saturation: 0.79, brightness: 0.53, alpha: 1.0).CGColor
-        shape.fillColor = UIColor(rgba: "#7ED321").CGColor
-        
-        let path = UIBezierPath()
-        path.moveToPoint(CGPointMake(topView.frame.width/2, 70))
-        path.addLineToPoint(CGPointMake((topView.frame.width/2)-10, 80))
-        path.addLineToPoint(CGPointMake((topView.frame.width/2)+10, 80))
-        path.closePath()
-        shape.path = path.CGPath
-        */
-        self.view.addSubview(topView)
+        self.view.addSubview(topview!)
 
     }
     
@@ -125,9 +99,16 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         let currentViewController = self.pageViewController!.viewControllers[0] as! UIViewController
         let viewControllers = [currentViewController]
         self.pageViewController!.setViewControllers(viewControllers, direction: .Forward, animated: true, completion: {done in })
-
+        
         self.pageViewController!.doubleSided = false
+        
+    // self.topview.collectionMonthView?.scrollToItemAtIndexPath(NSIndexPath(forRow: 0, inSection: 1), atScrollPosition: UICollectionViewScrollPosition.CenteredHorizontally, animated: true)
         return .Min
+    }
+    
+    func pageViewController(pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [AnyObject], transitionCompleted completed: Bool) {
+      //topview.collectionMonthView?.selectItemAtIndexPath(NSIndexPath(forRow: 2, inSection: 0), animated: true, scrollPosition: UICollectionViewScrollPosition.None)
+       // topview.collectionMonthView.//collectionView(collectionView: self.topview.collectionMonthView, didSelectItemAtIndexPath: NSIndexPath(forRow: 2, inSection: 0))
     }
 
 

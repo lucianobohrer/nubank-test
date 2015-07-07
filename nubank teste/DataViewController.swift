@@ -58,6 +58,8 @@ class DataViewController: UIViewController,UITableViewDataSource, UITableViewDel
         if let bill = dataObject as? BillApiResponse {
             var line = bill.lines![indexPath.row] as BillItem
             cell.lblName?.text = line.title
+            cell.lblName?.adjustsFontSizeToFitWidth = false
+            cell.lblName?.lineBreakMode = NSLineBreakMode.ByTruncatingTail
             detailView.configDetail(bill)
             cell.lblDate?.text = line.formatDataVenc(line.postDate!)
             if(line.amount >= 0){
@@ -82,10 +84,34 @@ class DataViewController: UIViewController,UITableViewDataSource, UITableViewDel
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
+        if let bill = dataObject as? BillApiResponse {
+            var line = bill.lines![indexPath.row] as BillItem
+            if(line.href != nil){
+                self.openURLAppNubank(line.href!)
+            }
+        }
     }
     
+    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let  headerCell = tableView.dequeueReusableCellWithIdentifier("HeaderCell") as! NUCustomHeaderCell
+        if let bill = dataObject as? BillApiResponse {
+            headerCell.lblOpenClose.text = String(format: "%@ ATÉ %@", arguments: [bill.summary.formatDataCompact(bill.summary.openDate!),bill.summary.formatDataCompact(bill.summary.closeDate!)])
+        }
+        return headerCell
+    }
     
+    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 20.0
+    }
+    
+    private func openURLAppNubank(url:String) {
+        if let nubanklURL:NSURL = NSURL(string:url) {
+            let application:UIApplication = UIApplication.sharedApplication()
+            if (application.canOpenURL(nubanklURL)) {
+                application.openURL(nubanklURL);
+            }
+        }
+    }
     
 
 }

@@ -4,10 +4,12 @@
 target 'nubank teste' do
 use_frameworks!
 pod 'Alamofire', '~> 1.2'
+pod 'iCarousel', '~> 1.7.6'
 end
 
 target 'nubank testeTests' do
 use_frameworks!
 pod 'Alamofire', '~> 1.2'
+pod 'iCarousel', '~> 1.7.6'
 end
 

@@ -12,3 +12,9 @@
 #define COCOAPODS_VERSION_MINOR_Alamofire 2
 #define COCOAPODS_VERSION_PATCH_Alamofire 3
 
+// iCarousel
+#define COCOAPODS_POD_AVAILABLE_iCarousel
+#define COCOAPODS_VERSION_MAJOR_iCarousel 1
+#define COCOAPODS_VERSION_MINOR_iCarousel 7
+#define COCOAPODS_VERSION_PATCH_iCarousel 6
+

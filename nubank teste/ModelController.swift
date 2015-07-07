@@ -38,9 +38,12 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         if (self.pageData.count == 0) || (index >= self.pageData.count) {
             return nil
         }
+        
         // Create a new view controller and pass suitable data.
         let dataViewController = storyboard.instantiateViewControllerWithIdentifier("DataViewController") as! DataViewController
         dataViewController.dataObject = self.pageData[index]
+        
+        
         return dataViewController
     }
 
@@ -67,6 +70,8 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         }
         let bill = self.pageData[index] as? BillApiResponse
         delegate.setArrowColor(bill!.colorCode())
+ 
+
         index--
         return self.viewControllerAtIndex(index, storyboard: viewController.storyboard!)
     }
@@ -78,6 +83,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         }
         let bill = self.pageData[index] as? BillApiResponse
         delegate.setArrowColor(bill!.colorCode())
+ 
         index++
         if index == self.pageData.count {
             return nil

@@ -56,4 +56,20 @@ class Summary: Mappable {
         
         return strVenc
     }
+    
+    func formatDataCompact(dt:NSDate) -> String {
+        let calendar = NSCalendar.currentCalendar()
+        let formatter = NSDateFormatter()
+        let components = calendar.components(.DayCalendarUnit, fromDate:  dt)
+        formatter.locale = NSLocale(localeIdentifier: "pt_BR_POSIX")
+        formatter.dateFormat = "MMM"
+        
+        
+        var strVenc = String(format: "%d %@", components.day , formatter.stringFromDate(dt).uppercaseString)
+        
+        
+        
+        
+        return strVenc
+    }
 }

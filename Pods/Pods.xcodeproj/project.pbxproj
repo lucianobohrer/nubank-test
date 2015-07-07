@@ -7,371 +7,471 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BC12BC583549F24C3160904 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518914423075223564B0605F /* Manager.swift */; };
-		17B77847AC0C215326038617 /* Pods-nubank teste-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EF56FDB57D80F486B902712 /* Pods-nubank teste-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		18C0DFFB6C3646A4D59AAC5E /* Pods-nubank teste-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F55B7DCFA099282ECF5CDB9C /* Pods-nubank teste-dummy.m */; };
-		28E01DCD44B9CD23DBE6F7BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFE45D90B9CF7039AD72592 /* Foundation.framework */; };
-		312B8EFA15DFEC394C32C3CD /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7213B044CE718578F9BFDDC5 /* Validation.swift */; };
-		3D91FCFC071B552A5C30491F /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283D12F3DEE3CA781E14D361 /* Download.swift */; };
-		4E3FA21AF33C9F655F3187BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFE45D90B9CF7039AD72592 /* Foundation.framework */; };
-		77AA26F1E35033224CC1CB68 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7213B044CE718578F9BFDDC5 /* Validation.swift */; };
-		86C929A59D22FBF349D937B3 /* Pods-nubank testeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67FD27D2769B23A4FB57FE65 /* Pods-nubank testeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88A0106F03DAFCE161573765 /* Pods-nubank testeTests-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 147F1A3057312272B3D707FF /* Pods-nubank testeTests-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		896900513A76BACBC2992D3A /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B689B95F397EFB324EA04B23 /* ResponseSerialization.swift */; };
-		8BB7C31518C19F0B7A0F82DD /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F156181475CB50CEAC50D15C /* ParameterEncoding.swift */; };
-		90F86CA850CAC7E354FD1D95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFE45D90B9CF7039AD72592 /* Foundation.framework */; };
-		AC74921F94F2C352AB29E84E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EB14E135CA4155C8F1970 /* Request.swift */; };
-		AF9C3AA1207006FB8A107754 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4899F1989B777194A1A96F72 /* Upload.swift */; };
-		B34B93A6933D0D7D21520550 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F9560AA42763532F012613 /* Alamofire.swift */; };
-		BB081142440384745BD7DA3C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8EB14E135CA4155C8F1970 /* Request.swift */; };
-		BFCD88BE65D3F6BD3A140A89 /* Pods-nubank teste-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C3AC19AA3C5FD6EE9C0D34 /* Pods-nubank teste-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C10FCDEC7A34B401B2A7604D /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B689B95F397EFB324EA04B23 /* ResponseSerialization.swift */; };
-		C9FC134D9FF73142F37206C4 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283D12F3DEE3CA781E14D361 /* Download.swift */; };
-		CCF2BE98773249D5738AEAA6 /* Pods-nubank testeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A1F87A8D2B68F1F35E0E27 /* Pods-nubank testeTests-dummy.m */; };
-		CD00E279C69C17C296134EE3 /* Pods-nubank teste-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEF80B102020411EE259570 /* Pods-nubank teste-Alamofire-dummy.m */; };
-		D8555F8549B1FC2196F52A38 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4899F1989B777194A1A96F72 /* Upload.swift */; };
-		D926A717654AFD9A8A3A969C /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F9560AA42763532F012613 /* Alamofire.swift */; };
-		EC873DF23B794D4A819986D6 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518914423075223564B0605F /* Manager.swift */; };
-		F2497C5D4EDB067076DA3B3D /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F156181475CB50CEAC50D15C /* ParameterEncoding.swift */; };
-		F786E534FFA5028C3DEED9DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFE45D90B9CF7039AD72592 /* Foundation.framework */; };
-		FC894FD8640C84869D308729 /* Pods-nubank testeTests-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 128E2EDE7A801ED267F099C9 /* Pods-nubank testeTests-Alamofire-dummy.m */; };
+		0D3FDA0C73BB53D8B8A88C1D /* Pods-nubank testeTests-iCarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ED9634987682BEAF89EB1 /* Pods-nubank testeTests-iCarousel-dummy.m */; };
+		11E16719B9F356A442D6BCE2 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F8C12C639FDC3721EFB4B /* iCarousel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		121F75867E27D22CEFF85ACC /* Pods-nubank teste-iCarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 629D634C1D0DC6D0A53C039F /* Pods-nubank teste-iCarousel-dummy.m */; };
+		149E95A988C8F76F0B6E894A /* Pods-nubank testeTests-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D51346B1810F8C2FEF49B569 /* Pods-nubank testeTests-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18F71FBB4D1C9EF20DCF4A93 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87048CC6BDA4B30B8074D691 /* QuartzCore.framework */; };
+		285F57503BC9D24525346EFE /* Pods-nubank teste-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A00C9AB1413582784B2EEF /* Pods-nubank teste-dummy.m */; };
+		36E7314B22FB44ECA8E8A1BA /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF33814D6ECC9D760CDBEF8 /* Alamofire.swift */; };
+		414C32B2B742E3A3FA74E1EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FB2ECB10761980B422DDFD /* Foundation.framework */; };
+		44B7554B9377063FBAB7434A /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F24C406972DE60BD4BACC7F /* Manager.swift */; };
+		4689DFAE42D98ACFE171CDC7 /* Pods-nubank teste-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BF286A5413257B6E71684EE /* Pods-nubank teste-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D47C4411DD58F14011C29A8 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF33814D6ECC9D760CDBEF8 /* Alamofire.swift */; };
+		503CE4F52481B6AF8A992847 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB098C7608ACAEE6363CDE8E /* Validation.swift */; };
+		50EDAF38C4AB77CE02DD4B70 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE925785ABB7FE6E0149E02 /* ParameterEncoding.swift */; };
+		52227EFD5C4E4795C2F12F5E /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577491219467D69CB628D9CB /* Download.swift */; };
+		546D663C2C1F3345990D90FF /* Pods-nubank teste-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD93056926CBB768C2F7914 /* Pods-nubank teste-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		580B65F3A0B07E77285DB788 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 005F8C12C639FDC3721EFB4B /* iCarousel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		59C0795FA4703E4289D5431B /* Pods-nubank teste-iCarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E06F26040AB4CD385930C152 /* Pods-nubank teste-iCarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60FF0C74AF29C009E31CFE75 /* Pods-nubank testeTests-iCarousel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D744D15939F03E1F1BAA0D24 /* Pods-nubank testeTests-iCarousel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74A63A8CBD35B3F4EA9B479A /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE5F4383A8A0F216D4AE6A /* ResponseSerialization.swift */; };
+		777318DF9697C113CAE967B5 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE925785ABB7FE6E0149E02 /* ParameterEncoding.swift */; };
+		7BBE1F2F7C7EC8B35390F6F6 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB098C7608ACAEE6363CDE8E /* Validation.swift */; };
+		7F42C661116883AE60EB9B79 /* Pods-nubank testeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 680C5701237E6F6C58B3ECA8 /* Pods-nubank testeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FEEFE371529929BA56F9728 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FB2ECB10761980B422DDFD /* Foundation.framework */; };
+		7FFBD0C0D4415D1F0EC5B89C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46028C4F7DA5535FC3408DAE /* Request.swift */; };
+		805A4976D5507A2E7605465E /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B76F193F542869DE34713C3 /* Upload.swift */; };
+		834466D963A8F00D59C83898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FB2ECB10761980B422DDFD /* Foundation.framework */; };
+		9FD04B8716E3FE8A7F7843BB /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46028C4F7DA5535FC3408DAE /* Request.swift */; };
+		A1A005068B5E2123DE4DBE75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FB2ECB10761980B422DDFD /* Foundation.framework */; };
+		A4158D533530F9B2B5C2179B /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE5F4383A8A0F216D4AE6A /* ResponseSerialization.swift */; };
+		A94D68BA173A784059DD939B /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E3FABC29AA6406A2535B73 /* iCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B115B34E21A5A82CA40F3B68 /* Pods-nubank teste-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 379840AD3D16CCF9B1451F45 /* Pods-nubank teste-Alamofire-dummy.m */; };
+		B328428CE1D694EA1A11DFF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FB2ECB10761980B422DDFD /* Foundation.framework */; };
+		B3FCABDD9210BDAB94FABF70 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B76F193F542869DE34713C3 /* Upload.swift */; };
+		B7094AB559FB10F62284DFA9 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F24C406972DE60BD4BACC7F /* Manager.swift */; };
+		C483B284050B008E63C02B46 /* Pods-nubank testeTests-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D6D3B8515A82B198EA94A2 /* Pods-nubank testeTests-Alamofire-dummy.m */; };
+		C5C08628DCA75CA75B3727E9 /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E3FABC29AA6406A2535B73 /* iCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D01DD6B9B952A187BF9A6201 /* Pods-nubank testeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 736B827BC1F61A6FBF9CE93D /* Pods-nubank testeTests-dummy.m */; };
+		D0BEAE5D88E11E8AFEAEE2E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FB2ECB10761980B422DDFD /* Foundation.framework */; };
+		DD899A939C0E2B021B9AB140 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87048CC6BDA4B30B8074D691 /* QuartzCore.framework */; };
+		E544B44250E7CF2FA38495F4 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577491219467D69CB628D9CB /* Download.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F354D73C1E4E4FE1E872FF73 /* PBXContainerItemProxy */ = {
+		0013580ACF0602F8C6308318 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1984D88081F8E7CE7C9F3224 /* Project object */;
+			containerPortal = D57A7F820639270214722060 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4E7D4ED214E4A6A5F096FA09;
+			remoteGlobalIDString = 4403A1F50CF38FCB0960BC5C;
+			remoteInfo = "Pods-nubank testeTests-Alamofire";
+		};
+		2854E68B8D0CC7D33E18E5A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57A7F820639270214722060 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CBA57883F69CC94380ABAD4;
+			remoteInfo = "Pods-nubank testeTests-iCarousel";
+		};
+		CAEC94965322A03F26D2479D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57A7F820639270214722060 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B294D8D131131A5CB9797AE9;
 			remoteInfo = "Pods-nubank teste-Alamofire";
 		};
-		F68731F36A1A85ED58A95819 /* PBXContainerItemProxy */ = {
+		D3FB07FB25B0A2F560392A29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1984D88081F8E7CE7C9F3224 /* Project object */;
+			containerPortal = D57A7F820639270214722060 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DAB936122811BACA1F4906C1;
-			remoteInfo = "Pods-nubank testeTests-Alamofire";
+			remoteGlobalIDString = 0EE3C23EB61B8F13FBD41E67;
+			remoteInfo = "Pods-nubank teste-iCarousel";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05F3BAE4B9188DDA1235A595 /* Pods-nubank teste-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nubank teste-frameworks.sh"; sourceTree = "<group>"; };
-		0EC256C9565A746FA645350A /* Pods-nubank teste.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-nubank teste.modulemap"; sourceTree = "<group>"; };
-		128E2EDE7A801ED267F099C9 /* Pods-nubank testeTests-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-nubank testeTests-Alamofire-dummy.m"; path = "../Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire-dummy.m"; sourceTree = "<group>"; };
-		147F1A3057312272B3D707FF /* Pods-nubank testeTests-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-nubank testeTests-Alamofire-umbrella.h"; path = "../Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		17881E0F459ED06814C44030 /* Pods-nubank testeTests-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubank testeTests-Alamofire-Private.xcconfig"; path = "../Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
-		214C4132B3341BA4B493AD1D /* Pods-nubank teste.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nubank teste.debug.xcconfig"; sourceTree = "<group>"; };
-		283D12F3DEE3CA781E14D361 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
-		2AECBA4566BCE1B54B52698B /* Pods-nubank testeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nubank testeTests-resources.sh"; sourceTree = "<group>"; };
-		30F9560AA42763532F012613 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		34CE0D72698CADB5B69D519A /* Pods_nubank_testeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nubank_testeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		402607F97D9BE0278432D45A /* Pods-nubank teste-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nubank teste-acknowledgements.plist"; sourceTree = "<group>"; };
-		44559A466C5FF076A685CCE6 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		44A1F87A8D2B68F1F35E0E27 /* Pods-nubank testeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nubank testeTests-dummy.m"; sourceTree = "<group>"; };
-		4899F1989B777194A1A96F72 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
-		4EF56FDB57D80F486B902712 /* Pods-nubank teste-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nubank teste-umbrella.h"; sourceTree = "<group>"; };
-		511A6F72C12F2644EB249CA6 /* Pods-nubank testeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nubank testeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		518914423075223564B0605F /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
-		51D97684C9F06EA8305ECF9D /* Pods-nubank teste.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nubank teste.release.xcconfig"; sourceTree = "<group>"; };
-		5E0A9BC8E489DA67C71CF686 /* Pods-nubank teste-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-nubank teste-Alamofire.modulemap"; sourceTree = "<group>"; };
-		61BB5472A918BD70552427F1 /* Pods-nubank teste-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nubank teste-environment.h"; sourceTree = "<group>"; };
-		67FD27D2769B23A4FB57FE65 /* Pods-nubank testeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nubank testeTests-umbrella.h"; sourceTree = "<group>"; };
-		706B8AE5BE591244EE6A77E1 /* Pods-nubank teste-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nubank teste-resources.sh"; sourceTree = "<group>"; };
-		70A7D03467B4C642289685B8 /* Pods-nubank testeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-nubank testeTests.modulemap"; sourceTree = "<group>"; };
-		7213B044CE718578F9BFDDC5 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		72C1AC20F25CF8A99AAA4606 /* Pods_nubank_teste.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nubank_teste.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		781B98D9A5320346BF63258D /* Pods-nubank teste-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nubank teste-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
-		7CEF80B102020411EE259570 /* Pods-nubank teste-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nubank teste-Alamofire-dummy.m"; sourceTree = "<group>"; };
-		887B8482D4DB447BF21FE302 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BFE45D90B9CF7039AD72592 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9C373E7F72DCAD145E2FADA5 /* Pods-nubank testeTests-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubank testeTests-Alamofire.xcconfig"; path = "../Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire.xcconfig"; sourceTree = "<group>"; };
-		9EB6C7DB4B624E0569523537 /* Pods-nubank testeTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nubank testeTests-environment.h"; sourceTree = "<group>"; };
-		AA54ECB07C29F407C77A688E /* Pods-nubank testeTests-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-nubank testeTests-Alamofire.modulemap"; path = "../Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire.modulemap"; sourceTree = "<group>"; };
-		ADFD2F89BE40685F096E537A /* Pods-nubank teste-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nubank teste-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B689B95F397EFB324EA04B23 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		B89E6B66E6F3BF1921D883D1 /* Pods-nubank teste-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nubank teste-Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		BFBF49812E3D4E18E97D2302 /* Pods-nubank teste-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nubank teste-Alamofire.xcconfig"; sourceTree = "<group>"; };
-		CF8EB14E135CA4155C8F1970 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		DBADF661AF49BBECDC287BE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC3904F58F39650108AC300C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-nubank testeTests-Alamofire/Info.plist"; sourceTree = "<group>"; };
-		DD21397FB5DEC6FD4A72B022 /* Pods-nubank testeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nubank testeTests.release.xcconfig"; sourceTree = "<group>"; };
-		DED6908C0BDA1D1025926429 /* Pods-nubank testeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nubank testeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E47813357B253EDE310861C3 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5C3AC19AA3C5FD6EE9C0D34 /* Pods-nubank teste-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nubank teste-Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		E92AE709ABF3B23815503F7C /* Pods-nubank testeTests-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-nubank testeTests-Alamofire-prefix.pch"; path = "../Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		F156181475CB50CEAC50D15C /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		F2678734C2FC062A6A054205 /* Pods-nubank testeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nubank testeTests-frameworks.sh"; sourceTree = "<group>"; };
-		F55B7DCFA099282ECF5CDB9C /* Pods-nubank teste-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nubank teste-dummy.m"; sourceTree = "<group>"; };
-		F930EB412E816089C1A28300 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB4F0FA21B049E289362F629 /* Pods-nubank testeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nubank testeTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FC742345A9B585BDC9E7292C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0032F9016784398F932910C8 /* Pods-nubank testeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nubank testeTests.release.xcconfig"; sourceTree = "<group>"; };
+		005F8C12C639FDC3721EFB4B /* iCarousel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = iCarousel/iCarousel.m; sourceTree = "<group>"; };
+		00AA03161E4E51231E904814 /* Pods-nubank testeTests-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-nubank testeTests-Alamofire-prefix.pch"; path = "../Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		038ABEE3C15B2BB27EA80F48 /* Pods-nubank testeTests-iCarousel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubank testeTests-iCarousel.xcconfig"; path = "../Pods-nubank testeTests-iCarousel/Pods-nubank testeTests-iCarousel.xcconfig"; sourceTree = "<group>"; };
+		065CAD44D4DE7ABBA8089832 /* Pods-nubank teste.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nubank teste.release.xcconfig"; sourceTree = "<group>"; };
+		071E0BB0871097F597BA7896 /* Pods-nubank testeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nubank testeTests-frameworks.sh"; sourceTree = "<group>"; };
+		0B4ED9634987682BEAF89EB1 /* Pods-nubank testeTests-iCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-nubank testeTests-iCarousel-dummy.m"; path = "../Pods-nubank testeTests-iCarousel/Pods-nubank testeTests-iCarousel-dummy.m"; sourceTree = "<group>"; };
+		0F24C406972DE60BD4BACC7F /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		1703939C4F2FBC0A0C5CACFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200C7ACAB50EB31DB4633222 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		219A9F1FFBA0A3EAB440FEBE /* Pods-nubank testeTests-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubank testeTests-Alamofire.xcconfig"; path = "../Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		22F3E94951DA9E1C6F2B45E6 /* Pods-nubank teste-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nubank teste-environment.h"; sourceTree = "<group>"; };
+		23DE5F4383A8A0F216D4AE6A /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		24FF7DF5CE0AD58D84B9692D /* Pods-nubank teste-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-nubank teste-Alamofire.modulemap"; sourceTree = "<group>"; };
+		26EE03D05D7153DF0905F634 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-nubank testeTests-iCarousel/Info.plist"; sourceTree = "<group>"; };
+		290F85744DE41AAAB47CE4A9 /* Pods-nubank testeTests-iCarousel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubank testeTests-iCarousel-Private.xcconfig"; path = "../Pods-nubank testeTests-iCarousel/Pods-nubank testeTests-iCarousel-Private.xcconfig"; sourceTree = "<group>"; };
+		2ABFA80372965A3256AE9214 /* Pods-nubank testeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nubank testeTests-resources.sh"; sourceTree = "<group>"; };
+		33E62FDFAB55EBCC2914AEBB /* Pods-nubank testeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-nubank testeTests.modulemap"; sourceTree = "<group>"; };
+		379840AD3D16CCF9B1451F45 /* Pods-nubank teste-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nubank teste-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		3AF33814D6ECC9D760CDBEF8 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		447E96FEB0CBF2D6AA2DF1CA /* Pods-nubank testeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nubank testeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46028C4F7DA5535FC3408DAE /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		4661B67D4BA71558131C8839 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4771F7F616E8D75A0AF01C16 /* Pods-nubank teste-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-nubank teste-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5194EB1120FD47A52BFCDAE9 /* Pods-nubank testeTests-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-nubank testeTests-Alamofire.modulemap"; path = "../Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire.modulemap"; sourceTree = "<group>"; };
+		5669AA3637A7E31E2B68BD02 /* Pods-nubank testeTests-iCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-nubank testeTests-iCarousel.modulemap"; path = "../Pods-nubank testeTests-iCarousel/Pods-nubank testeTests-iCarousel.modulemap"; sourceTree = "<group>"; };
+		577491219467D69CB628D9CB /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		58FD89108E813DC099192190 /* Pods-nubank teste-iCarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nubank teste-iCarousel-prefix.pch"; sourceTree = "<group>"; };
+		5B76F193F542869DE34713C3 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		5B80C3AAA201130C9DBA2A51 /* Pods-nubank teste-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nubank teste-resources.sh"; sourceTree = "<group>"; };
+		5BF286A5413257B6E71684EE /* Pods-nubank teste-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nubank teste-umbrella.h"; sourceTree = "<group>"; };
+		5DBE5F30FD34565363F21C80 /* Pods_nubank_teste.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nubank_teste.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBA4B987C01A0AA5E908BC7 /* Pods-nubank teste.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nubank teste.debug.xcconfig"; sourceTree = "<group>"; };
+		629D634C1D0DC6D0A53C039F /* Pods-nubank teste-iCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nubank teste-iCarousel-dummy.m"; sourceTree = "<group>"; };
+		680C5701237E6F6C58B3ECA8 /* Pods-nubank testeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nubank testeTests-umbrella.h"; sourceTree = "<group>"; };
+		6CA1E9D501FC54F6893183A2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2813A38B3B0280A3D016AD /* Pods-nubank testeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nubank testeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		713A4648AD602E417B339BF2 /* Pods-nubank teste-iCarousel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nubank teste-iCarousel.xcconfig"; sourceTree = "<group>"; };
+		736B827BC1F61A6FBF9CE93D /* Pods-nubank testeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nubank testeTests-dummy.m"; sourceTree = "<group>"; };
+		7C53E5CD67B7D2167D563494 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-nubank testeTests-Alamofire/Info.plist"; sourceTree = "<group>"; };
+		80A40B7FB32589FD105CDCF3 /* Pods-nubank teste.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-nubank teste.modulemap"; sourceTree = "<group>"; };
+		84FBA305F857556D2390F8A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87048CC6BDA4B30B8074D691 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		8BA1CC8D824FD4EB6D9200D5 /* Pods_nubank_testeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nubank_testeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99AD59DDF69014141A2A9E80 /* Pods-nubank teste-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nubank teste-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		9A6C1E29CDDC38DF82E736A3 /* Pods-nubank testeTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nubank testeTests-environment.h"; sourceTree = "<group>"; };
+		A279C2AB0C44B59E6B8E241F /* Pods-nubank teste-iCarousel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-nubank teste-iCarousel.modulemap"; sourceTree = "<group>"; };
+		A6E3FABC29AA6406A2535B73 /* iCarousel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = iCarousel/iCarousel.h; sourceTree = "<group>"; };
+		A8FB2ECB10761980B422DDFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AFD93056926CBB768C2F7914 /* Pods-nubank teste-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nubank teste-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		B0AC8820D0CF1BA4A6CB3389 /* Pods-nubank testeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nubank testeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B17DEA10D6CD806093962104 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1A00C9AB1413582784B2EEF /* Pods-nubank teste-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-nubank teste-dummy.m"; sourceTree = "<group>"; };
+		B849E6607701E7BC8AD81257 /* iCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE925785ABB7FE6E0149E02 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		C83394579C8DA56885632B2C /* Pods-nubank teste-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-nubank teste-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC4A74A1CBFEF2F6CC370E42 /* iCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51346B1810F8C2FEF49B569 /* Pods-nubank testeTests-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-nubank testeTests-Alamofire-umbrella.h"; path = "../Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		D744D15939F03E1F1BAA0D24 /* Pods-nubank testeTests-iCarousel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-nubank testeTests-iCarousel-umbrella.h"; path = "../Pods-nubank testeTests-iCarousel/Pods-nubank testeTests-iCarousel-umbrella.h"; sourceTree = "<group>"; };
+		DB098C7608ACAEE6363CDE8E /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		E06F26040AB4CD385930C152 /* Pods-nubank teste-iCarousel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nubank teste-iCarousel-umbrella.h"; sourceTree = "<group>"; };
+		E4F10651575AE05A96476B6C /* Pods-nubank teste-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nubank teste-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		EA76D3EF987F5123ED03CB05 /* Pods-nubank teste-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-nubank teste-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		F276210FD00C98A856EF4398 /* Pods-nubank teste-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-nubank teste-frameworks.sh"; sourceTree = "<group>"; };
+		F8D6D3B8515A82B198EA94A2 /* Pods-nubank testeTests-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-nubank testeTests-Alamofire-dummy.m"; path = "../Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		F96FFCED3C4320BAB70AC3AA /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FA3B9DA718F9AA8134869878 /* Pods-nubank teste-iCarousel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-nubank teste-iCarousel-Private.xcconfig"; sourceTree = "<group>"; };
+		FBD9DA123B05A886AD5882E6 /* Pods-nubank testeTests-iCarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-nubank testeTests-iCarousel-prefix.pch"; path = "../Pods-nubank testeTests-iCarousel/Pods-nubank testeTests-iCarousel-prefix.pch"; sourceTree = "<group>"; };
+		FE4D47EC05AC4AE8AA3EC9AA /* Pods-nubank testeTests-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubank testeTests-Alamofire-Private.xcconfig"; path = "../Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6D21CFBA9E283605A87BCAB1 /* Frameworks */ = {
+		35CA82D84F0C4466E177D771 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F786E534FFA5028C3DEED9DF /* Foundation.framework in Frameworks */,
+				B328428CE1D694EA1A11DFF5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A34186B666245FC319F0EDD6 /* Frameworks */ = {
+		43A731366E069B592897EFC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E3FA21AF33C9F655F3187BF /* Foundation.framework in Frameworks */,
+				D0BEAE5D88E11E8AFEAEE2E1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3AE8A7CE3AFA047D0A47214 /* Frameworks */ = {
+		A225A5389C9DA4DDD4E68B1D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90F86CA850CAC7E354FD1D95 /* Foundation.framework in Frameworks */,
+				7FEEFE371529929BA56F9728 /* Foundation.framework in Frameworks */,
+				18F71FBB4D1C9EF20DCF4A93 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF3E28F6909698CECF5F369E /* Frameworks */ = {
+		A2AC9DB88F6067FDB964E91C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E01DCD44B9CD23DBE6F7BC /* Foundation.framework in Frameworks */,
+				414C32B2B742E3A3FA74E1EC /* Foundation.framework in Frameworks */,
+				DD899A939C0E2B021B9AB140 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20F7A642312A8918B822663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834466D963A8F00D59C83898 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61B79E2830D95481FCFA187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A005068B5E2123DE4DBE75 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26FAFD81EE0A799A096A205A /* Targets Support Files */ = {
+		1985F206D3E97B807592A07A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				277F011DF40DE116DFE97079 /* Pods-nubank teste */,
-				F34FF4F24740D4933A11B645 /* Pods-nubank testeTests */,
+				6758ABB411A61BC90F682D24 /* Pods-nubank teste */,
+				B830967F7DC2123A9DFBDFAC /* Pods-nubank testeTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		277F011DF40DE116DFE97079 /* Pods-nubank teste */ = {
+		1F338BB18146418C0A0B0FB1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FC742345A9B585BDC9E7292C /* Info.plist */,
-				0EC256C9565A746FA645350A /* Pods-nubank teste.modulemap */,
-				ADFD2F89BE40685F096E537A /* Pods-nubank teste-acknowledgements.markdown */,
-				402607F97D9BE0278432D45A /* Pods-nubank teste-acknowledgements.plist */,
-				F55B7DCFA099282ECF5CDB9C /* Pods-nubank teste-dummy.m */,
-				61BB5472A918BD70552427F1 /* Pods-nubank teste-environment.h */,
-				05F3BAE4B9188DDA1235A595 /* Pods-nubank teste-frameworks.sh */,
-				706B8AE5BE591244EE6A77E1 /* Pods-nubank teste-resources.sh */,
-				4EF56FDB57D80F486B902712 /* Pods-nubank teste-umbrella.h */,
-				214C4132B3341BA4B493AD1D /* Pods-nubank teste.debug.xcconfig */,
-				51D97684C9F06EA8305ECF9D /* Pods-nubank teste.release.xcconfig */,
-			);
-			name = "Pods-nubank teste";
-			path = "Target Support Files/Pods-nubank teste";
-			sourceTree = "<group>";
-		};
-		27FC98EFDAFC8B2A1CE3F658 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				ADF3B0C0D23F32E4907E0768 /* Alamofire */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		435983495E5C5FF0AEE6B38A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				8BFE45D90B9CF7039AD72592 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		613279F7DA2CEF11335F839A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				435983495E5C5FF0AEE6B38A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6766ADFAF6D9097E4FD2824B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E47813357B253EDE310861C3 /* Alamofire.framework */,
-				887B8482D4DB447BF21FE302 /* Alamofire.framework */,
-				72C1AC20F25CF8A99AAA4606 /* Pods_nubank_teste.framework */,
-				34CE0D72698CADB5B69D519A /* Pods_nubank_testeTests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7021FD6DFCE1734390AA8400 = {
-			isa = PBXGroup;
-			children = (
-				44559A466C5FF076A685CCE6 /* Podfile */,
-				613279F7DA2CEF11335F839A /* Frameworks */,
-				27FC98EFDAFC8B2A1CE3F658 /* Pods */,
-				6766ADFAF6D9097E4FD2824B /* Products */,
-				26FAFD81EE0A799A096A205A /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		ADF3B0C0D23F32E4907E0768 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				30F9560AA42763532F012613 /* Alamofire.swift */,
-				283D12F3DEE3CA781E14D361 /* Download.swift */,
-				518914423075223564B0605F /* Manager.swift */,
-				F156181475CB50CEAC50D15C /* ParameterEncoding.swift */,
-				CF8EB14E135CA4155C8F1970 /* Request.swift */,
-				B689B95F397EFB324EA04B23 /* ResponseSerialization.swift */,
-				4899F1989B777194A1A96F72 /* Upload.swift */,
-				7213B044CE718578F9BFDDC5 /* Validation.swift */,
-				DBE7825032BF321E216EFDBF /* Support Files */,
-			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		DBE7825032BF321E216EFDBF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DBADF661AF49BBECDC287BE4 /* Info.plist */,
-				DC3904F58F39650108AC300C /* Info.plist */,
-				5E0A9BC8E489DA67C71CF686 /* Pods-nubank teste-Alamofire.modulemap */,
-				BFBF49812E3D4E18E97D2302 /* Pods-nubank teste-Alamofire.xcconfig */,
-				781B98D9A5320346BF63258D /* Pods-nubank teste-Alamofire-Private.xcconfig */,
-				7CEF80B102020411EE259570 /* Pods-nubank teste-Alamofire-dummy.m */,
-				B89E6B66E6F3BF1921D883D1 /* Pods-nubank teste-Alamofire-prefix.pch */,
-				E5C3AC19AA3C5FD6EE9C0D34 /* Pods-nubank teste-Alamofire-umbrella.h */,
-				AA54ECB07C29F407C77A688E /* Pods-nubank testeTests-Alamofire.modulemap */,
-				9C373E7F72DCAD145E2FADA5 /* Pods-nubank testeTests-Alamofire.xcconfig */,
-				17881E0F459ED06814C44030 /* Pods-nubank testeTests-Alamofire-Private.xcconfig */,
-				128E2EDE7A801ED267F099C9 /* Pods-nubank testeTests-Alamofire-dummy.m */,
-				E92AE709ABF3B23815503F7C /* Pods-nubank testeTests-Alamofire-prefix.pch */,
-				147F1A3057312272B3D707FF /* Pods-nubank testeTests-Alamofire-umbrella.h */,
+				B17DEA10D6CD806093962104 /* Info.plist */,
+				7C53E5CD67B7D2167D563494 /* Info.plist */,
+				24FF7DF5CE0AD58D84B9692D /* Pods-nubank teste-Alamofire.modulemap */,
+				E4F10651575AE05A96476B6C /* Pods-nubank teste-Alamofire.xcconfig */,
+				99AD59DDF69014141A2A9E80 /* Pods-nubank teste-Alamofire-Private.xcconfig */,
+				379840AD3D16CCF9B1451F45 /* Pods-nubank teste-Alamofire-dummy.m */,
+				EA76D3EF987F5123ED03CB05 /* Pods-nubank teste-Alamofire-prefix.pch */,
+				AFD93056926CBB768C2F7914 /* Pods-nubank teste-Alamofire-umbrella.h */,
+				5194EB1120FD47A52BFCDAE9 /* Pods-nubank testeTests-Alamofire.modulemap */,
+				219A9F1FFBA0A3EAB440FEBE /* Pods-nubank testeTests-Alamofire.xcconfig */,
+				FE4D47EC05AC4AE8AA3EC9AA /* Pods-nubank testeTests-Alamofire-Private.xcconfig */,
+				F8D6D3B8515A82B198EA94A2 /* Pods-nubank testeTests-Alamofire-dummy.m */,
+				00AA03161E4E51231E904814 /* Pods-nubank testeTests-Alamofire-prefix.pch */,
+				D51346B1810F8C2FEF49B569 /* Pods-nubank testeTests-Alamofire-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-nubank teste-Alamofire";
 			sourceTree = "<group>";
 		};
-		F34FF4F24740D4933A11B645 /* Pods-nubank testeTests */ = {
+		303D498869E8CDDE93793BD0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F930EB412E816089C1A28300 /* Info.plist */,
-				70A7D03467B4C642289685B8 /* Pods-nubank testeTests.modulemap */,
-				DED6908C0BDA1D1025926429 /* Pods-nubank testeTests-acknowledgements.markdown */,
-				FB4F0FA21B049E289362F629 /* Pods-nubank testeTests-acknowledgements.plist */,
-				44A1F87A8D2B68F1F35E0E27 /* Pods-nubank testeTests-dummy.m */,
-				9EB6C7DB4B624E0569523537 /* Pods-nubank testeTests-environment.h */,
-				F2678734C2FC062A6A054205 /* Pods-nubank testeTests-frameworks.sh */,
-				2AECBA4566BCE1B54B52698B /* Pods-nubank testeTests-resources.sh */,
-				67FD27D2769B23A4FB57FE65 /* Pods-nubank testeTests-umbrella.h */,
-				511A6F72C12F2644EB249CA6 /* Pods-nubank testeTests.debug.xcconfig */,
-				DD21397FB5DEC6FD4A72B022 /* Pods-nubank testeTests.release.xcconfig */,
+				6CA1E9D501FC54F6893183A2 /* Alamofire.framework */,
+				200C7ACAB50EB31DB4633222 /* Alamofire.framework */,
+				5DBE5F30FD34565363F21C80 /* Pods_nubank_teste.framework */,
+				8BA1CC8D824FD4EB6D9200D5 /* Pods_nubank_testeTests.framework */,
+				B849E6607701E7BC8AD81257 /* iCarousel.framework */,
+				CC4A74A1CBFEF2F6CC370E42 /* iCarousel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		305A69BA37BD199C57D5E687 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1703939C4F2FBC0A0C5CACFD /* Info.plist */,
+				26EE03D05D7153DF0905F634 /* Info.plist */,
+				A279C2AB0C44B59E6B8E241F /* Pods-nubank teste-iCarousel.modulemap */,
+				713A4648AD602E417B339BF2 /* Pods-nubank teste-iCarousel.xcconfig */,
+				FA3B9DA718F9AA8134869878 /* Pods-nubank teste-iCarousel-Private.xcconfig */,
+				629D634C1D0DC6D0A53C039F /* Pods-nubank teste-iCarousel-dummy.m */,
+				58FD89108E813DC099192190 /* Pods-nubank teste-iCarousel-prefix.pch */,
+				E06F26040AB4CD385930C152 /* Pods-nubank teste-iCarousel-umbrella.h */,
+				5669AA3637A7E31E2B68BD02 /* Pods-nubank testeTests-iCarousel.modulemap */,
+				038ABEE3C15B2BB27EA80F48 /* Pods-nubank testeTests-iCarousel.xcconfig */,
+				290F85744DE41AAAB47CE4A9 /* Pods-nubank testeTests-iCarousel-Private.xcconfig */,
+				0B4ED9634987682BEAF89EB1 /* Pods-nubank testeTests-iCarousel-dummy.m */,
+				FBD9DA123B05A886AD5882E6 /* Pods-nubank testeTests-iCarousel-prefix.pch */,
+				D744D15939F03E1F1BAA0D24 /* Pods-nubank testeTests-iCarousel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-nubank teste-iCarousel";
+			sourceTree = "<group>";
+		};
+		6758ABB411A61BC90F682D24 /* Pods-nubank teste */ = {
+			isa = PBXGroup;
+			children = (
+				4661B67D4BA71558131C8839 /* Info.plist */,
+				80A40B7FB32589FD105CDCF3 /* Pods-nubank teste.modulemap */,
+				4771F7F616E8D75A0AF01C16 /* Pods-nubank teste-acknowledgements.markdown */,
+				C83394579C8DA56885632B2C /* Pods-nubank teste-acknowledgements.plist */,
+				B1A00C9AB1413582784B2EEF /* Pods-nubank teste-dummy.m */,
+				22F3E94951DA9E1C6F2B45E6 /* Pods-nubank teste-environment.h */,
+				F276210FD00C98A856EF4398 /* Pods-nubank teste-frameworks.sh */,
+				5B80C3AAA201130C9DBA2A51 /* Pods-nubank teste-resources.sh */,
+				5BF286A5413257B6E71684EE /* Pods-nubank teste-umbrella.h */,
+				5FBA4B987C01A0AA5E908BC7 /* Pods-nubank teste.debug.xcconfig */,
+				065CAD44D4DE7ABBA8089832 /* Pods-nubank teste.release.xcconfig */,
+			);
+			name = "Pods-nubank teste";
+			path = "Target Support Files/Pods-nubank teste";
+			sourceTree = "<group>";
+		};
+		78315D7DF4F860B65F988E86 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				3AF33814D6ECC9D760CDBEF8 /* Alamofire.swift */,
+				577491219467D69CB628D9CB /* Download.swift */,
+				0F24C406972DE60BD4BACC7F /* Manager.swift */,
+				BDE925785ABB7FE6E0149E02 /* ParameterEncoding.swift */,
+				46028C4F7DA5535FC3408DAE /* Request.swift */,
+				23DE5F4383A8A0F216D4AE6A /* ResponseSerialization.swift */,
+				5B76F193F542869DE34713C3 /* Upload.swift */,
+				DB098C7608ACAEE6363CDE8E /* Validation.swift */,
+				1F338BB18146418C0A0B0FB1 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		84C13AE2EF3858BBCA68F446 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A8FB2ECB10761980B422DDFD /* Foundation.framework */,
+				87048CC6BDA4B30B8074D691 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8F1E40792AC69186D303E0F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78315D7DF4F860B65F988E86 /* Alamofire */,
+				AA6A34C9F6A4DF0C78DA2FE9 /* iCarousel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA6A34C9F6A4DF0C78DA2FE9 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				A6E3FABC29AA6406A2535B73 /* iCarousel.h */,
+				005F8C12C639FDC3721EFB4B /* iCarousel.m */,
+				305A69BA37BD199C57D5E687 /* Support Files */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		B830967F7DC2123A9DFBDFAC /* Pods-nubank testeTests */ = {
+			isa = PBXGroup;
+			children = (
+				84FBA305F857556D2390F8A0 /* Info.plist */,
+				33E62FDFAB55EBCC2914AEBB /* Pods-nubank testeTests.modulemap */,
+				447E96FEB0CBF2D6AA2DF1CA /* Pods-nubank testeTests-acknowledgements.markdown */,
+				6E2813A38B3B0280A3D016AD /* Pods-nubank testeTests-acknowledgements.plist */,
+				736B827BC1F61A6FBF9CE93D /* Pods-nubank testeTests-dummy.m */,
+				9A6C1E29CDDC38DF82E736A3 /* Pods-nubank testeTests-environment.h */,
+				071E0BB0871097F597BA7896 /* Pods-nubank testeTests-frameworks.sh */,
+				2ABFA80372965A3256AE9214 /* Pods-nubank testeTests-resources.sh */,
+				680C5701237E6F6C58B3ECA8 /* Pods-nubank testeTests-umbrella.h */,
+				B0AC8820D0CF1BA4A6CB3389 /* Pods-nubank testeTests.debug.xcconfig */,
+				0032F9016784398F932910C8 /* Pods-nubank testeTests.release.xcconfig */,
 			);
 			name = "Pods-nubank testeTests";
 			path = "Target Support Files/Pods-nubank testeTests";
 			sourceTree = "<group>";
 		};
+		C679176CF9F8128E20998565 = {
+			isa = PBXGroup;
+			children = (
+				F96FFCED3C4320BAB70AC3AA /* Podfile */,
+				C775274E710A820479466B6E /* Frameworks */,
+				8F1E40792AC69186D303E0F7 /* Pods */,
+				303D498869E8CDDE93793BD0 /* Products */,
+				1985F206D3E97B807592A07A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C775274E710A820479466B6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84C13AE2EF3858BBCA68F446 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B934EED3853618637D1D6E15 /* Headers */ = {
+		12C0ADEA115EB103BAC1A74A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCD88BE65D3F6BD3A140A89 /* Pods-nubank teste-Alamofire-umbrella.h in Headers */,
+				7F42C661116883AE60EB9B79 /* Pods-nubank testeTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD37294EC8EA5AB0BF52D9D2 /* Headers */ = {
+		9D59CF78981B0D64CB43C3B9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88A0106F03DAFCE161573765 /* Pods-nubank testeTests-Alamofire-umbrella.h in Headers */,
+				59C0795FA4703E4289D5431B /* Pods-nubank teste-iCarousel-umbrella.h in Headers */,
+				A94D68BA173A784059DD939B /* iCarousel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D060290FAA0AFF5739A8B85F /* Headers */ = {
+		BCB5A22B9B43E8E71A66D4BE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86C929A59D22FBF349D937B3 /* Pods-nubank testeTests-umbrella.h in Headers */,
+				60FF0C74AF29C009E31CFE75 /* Pods-nubank testeTests-iCarousel-umbrella.h in Headers */,
+				C5C08628DCA75CA75B3727E9 /* iCarousel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0E557026CA78711B4C9B44B /* Headers */ = {
+		D53A95944250682792A45AC9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17B77847AC0C215326038617 /* Pods-nubank teste-umbrella.h in Headers */,
+				4689DFAE42D98ACFE171CDC7 /* Pods-nubank teste-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87DE0C51A971B6BA3540F0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149E95A988C8F76F0B6E894A /* Pods-nubank testeTests-Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD4556BEF6170FB7DE7E262 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546D663C2C1F3345990D90FF /* Pods-nubank teste-Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0CEDFEB296A973669BABE5A5 /* Pods-nubank testeTests */ = {
+		0EE3C23EB61B8F13FBD41E67 /* Pods-nubank teste-iCarousel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F45E7F2F31CDBF9BC69E1AF7 /* Build configuration list for PBXNativeTarget "Pods-nubank testeTests" */;
+			buildConfigurationList = 58AF84FE729B1AEE4E83C230 /* Build configuration list for PBXNativeTarget "Pods-nubank teste-iCarousel" */;
 			buildPhases = (
-				EE6318AE94CADCE5D3405C18 /* Sources */,
-				A3AE8A7CE3AFA047D0A47214 /* Frameworks */,
-				D060290FAA0AFF5739A8B85F /* Headers */,
+				949DE6B39084CAC17FF3C9FA /* Sources */,
+				A2AC9DB88F6067FDB964E91C /* Frameworks */,
+				9D59CF78981B0D64CB43C3B9 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E5D2756F1123267409A23F26 /* PBXTargetDependency */,
+			);
+			name = "Pods-nubank teste-iCarousel";
+			productName = "Pods-nubank teste-iCarousel";
+			productReference = B849E6607701E7BC8AD81257 /* iCarousel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		104824B9BD2681AFA608073D /* Pods-nubank testeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6C105A5814328280982FF12 /* Build configuration list for PBXNativeTarget "Pods-nubank testeTests" */;
+			buildPhases = (
+				22E7775359FF2BB8E5D50851 /* Sources */,
+				43A731366E069B592897EFC1 /* Frameworks */,
+				12C0ADEA115EB103BAC1A74A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB445D8A2B3560723F8AB8D6 /* PBXTargetDependency */,
+				EBC3427FF74C5BDC124D6A3E /* PBXTargetDependency */,
 			);
 			name = "Pods-nubank testeTests";
 			productName = "Pods-nubank testeTests";
-			productReference = 34CE0D72698CADB5B69D519A /* Pods_nubank_testeTests.framework */;
+			productReference = 8BA1CC8D824FD4EB6D9200D5 /* Pods_nubank_testeTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		19B27ABA3C0CEE006BD76C7F /* Pods-nubank teste */ = {
+		4403A1F50CF38FCB0960BC5C /* Pods-nubank testeTests-Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9BB0E90B24FF2021B1F48F3 /* Build configuration list for PBXNativeTarget "Pods-nubank teste" */;
+			buildConfigurationList = D31554DFD98218567AE2A6C8 /* Build configuration list for PBXNativeTarget "Pods-nubank testeTests-Alamofire" */;
 			buildPhases = (
-				9726BC6A7A61D3ACBD7865CD /* Sources */,
-				6D21CFBA9E283605A87BCAB1 /* Frameworks */,
-				E0E557026CA78711B4C9B44B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84285D8BCAB0F687F7D3298C /* PBXTargetDependency */,
-			);
-			name = "Pods-nubank teste";
-			productName = "Pods-nubank teste";
-			productReference = 72C1AC20F25CF8A99AAA4606 /* Pods_nubank_teste.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4E7D4ED214E4A6A5F096FA09 /* Pods-nubank teste-Alamofire */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C6EE853E0CCB1358A2C6DA3C /* Build configuration list for PBXNativeTarget "Pods-nubank teste-Alamofire" */;
-			buildPhases = (
-				428842A4A020225471FEBC71 /* Sources */,
-				AF3E28F6909698CECF5F369E /* Frameworks */,
-				B934EED3853618637D1D6E15 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-nubank teste-Alamofire";
-			productName = "Pods-nubank teste-Alamofire";
-			productReference = E47813357B253EDE310861C3 /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DAB936122811BACA1F4906C1 /* Pods-nubank testeTests-Alamofire */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 11F8669C92FDD434054160B8 /* Build configuration list for PBXNativeTarget "Pods-nubank testeTests-Alamofire" */;
-			buildPhases = (
-				66D3633BCC049A5A74879676 /* Sources */,
-				A34186B666245FC319F0EDD6 /* Frameworks */,
-				CD37294EC8EA5AB0BF52D9D2 /* Headers */,
+				A5B8C6F2F2BE70EA4E39D55A /* Sources */,
+				F61B79E2830D95481FCFA187 /* Frameworks */,
+				D87DE0C51A971B6BA3540F0D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -379,105 +479,415 @@
 			);
 			name = "Pods-nubank testeTests-Alamofire";
 			productName = "Pods-nubank testeTests-Alamofire";
-			productReference = 887B8482D4DB447BF21FE302 /* Alamofire.framework */;
+			productReference = 200C7ACAB50EB31DB4633222 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CBA57883F69CC94380ABAD4 /* Pods-nubank testeTests-iCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE497E6456DB5A59E29CEDBF /* Build configuration list for PBXNativeTarget "Pods-nubank testeTests-iCarousel" */;
+			buildPhases = (
+				A504141C28879CBAE11F2BD2 /* Sources */,
+				A225A5389C9DA4DDD4E68B1D /* Frameworks */,
+				BCB5A22B9B43E8E71A66D4BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-nubank testeTests-iCarousel";
+			productName = "Pods-nubank testeTests-iCarousel";
+			productReference = CC4A74A1CBFEF2F6CC370E42 /* iCarousel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF006C6FAED2DF1F9E94C6B9 /* Pods-nubank teste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3EE8EDEDA379EA64FDCD418 /* Build configuration list for PBXNativeTarget "Pods-nubank teste" */;
+			buildPhases = (
+				7875DAB543599AFF81F9E790 /* Sources */,
+				E20F7A642312A8918B822663 /* Frameworks */,
+				D53A95944250682792A45AC9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				154D6C53CB7F7CE5AD775EE9 /* PBXTargetDependency */,
+				85583D67450F9314D13B5D9D /* PBXTargetDependency */,
+			);
+			name = "Pods-nubank teste";
+			productName = "Pods-nubank teste";
+			productReference = 5DBE5F30FD34565363F21C80 /* Pods_nubank_teste.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B294D8D131131A5CB9797AE9 /* Pods-nubank teste-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9927F16354144589DAC98140 /* Build configuration list for PBXNativeTarget "Pods-nubank teste-Alamofire" */;
+			buildPhases = (
+				E6F9E7B4BB13D5E2AA17E52D /* Sources */,
+				35CA82D84F0C4466E177D771 /* Frameworks */,
+				FCD4556BEF6170FB7DE7E262 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-nubank teste-Alamofire";
+			productName = "Pods-nubank teste-Alamofire";
+			productReference = 6CA1E9D501FC54F6893183A2 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1984D88081F8E7CE7C9F3224 /* Project object */ = {
+		D57A7F820639270214722060 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 548D19C907AA18206CA96306 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 57C7F0C635D72BC7D9E03CEA /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7021FD6DFCE1734390AA8400;
-			productRefGroup = 6766ADFAF6D9097E4FD2824B /* Products */;
+			mainGroup = C679176CF9F8128E20998565;
+			productRefGroup = 303D498869E8CDDE93793BD0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				19B27ABA3C0CEE006BD76C7F /* Pods-nubank teste */,
-				4E7D4ED214E4A6A5F096FA09 /* Pods-nubank teste-Alamofire */,
-				0CEDFEB296A973669BABE5A5 /* Pods-nubank testeTests */,
-				DAB936122811BACA1F4906C1 /* Pods-nubank testeTests-Alamofire */,
+				AF006C6FAED2DF1F9E94C6B9 /* Pods-nubank teste */,
+				B294D8D131131A5CB9797AE9 /* Pods-nubank teste-Alamofire */,
+				0EE3C23EB61B8F13FBD41E67 /* Pods-nubank teste-iCarousel */,
+				104824B9BD2681AFA608073D /* Pods-nubank testeTests */,
+				4403A1F50CF38FCB0960BC5C /* Pods-nubank testeTests-Alamofire */,
+				9CBA57883F69CC94380ABAD4 /* Pods-nubank testeTests-iCarousel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		428842A4A020225471FEBC71 /* Sources */ = {
+		22E7775359FF2BB8E5D50851 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D926A717654AFD9A8A3A969C /* Alamofire.swift in Sources */,
-				C9FC134D9FF73142F37206C4 /* Download.swift in Sources */,
-				0BC12BC583549F24C3160904 /* Manager.swift in Sources */,
-				8BB7C31518C19F0B7A0F82DD /* ParameterEncoding.swift in Sources */,
-				CD00E279C69C17C296134EE3 /* Pods-nubank teste-Alamofire-dummy.m in Sources */,
-				AC74921F94F2C352AB29E84E /* Request.swift in Sources */,
-				896900513A76BACBC2992D3A /* ResponseSerialization.swift in Sources */,
-				AF9C3AA1207006FB8A107754 /* Upload.swift in Sources */,
-				312B8EFA15DFEC394C32C3CD /* Validation.swift in Sources */,
+				D01DD6B9B952A187BF9A6201 /* Pods-nubank testeTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66D3633BCC049A5A74879676 /* Sources */ = {
+		7875DAB543599AFF81F9E790 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B34B93A6933D0D7D21520550 /* Alamofire.swift in Sources */,
-				3D91FCFC071B552A5C30491F /* Download.swift in Sources */,
-				EC873DF23B794D4A819986D6 /* Manager.swift in Sources */,
-				F2497C5D4EDB067076DA3B3D /* ParameterEncoding.swift in Sources */,
-				FC894FD8640C84869D308729 /* Pods-nubank testeTests-Alamofire-dummy.m in Sources */,
-				BB081142440384745BD7DA3C /* Request.swift in Sources */,
-				C10FCDEC7A34B401B2A7604D /* ResponseSerialization.swift in Sources */,
-				D8555F8549B1FC2196F52A38 /* Upload.swift in Sources */,
-				77AA26F1E35033224CC1CB68 /* Validation.swift in Sources */,
+				285F57503BC9D24525346EFE /* Pods-nubank teste-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9726BC6A7A61D3ACBD7865CD /* Sources */ = {
+		949DE6B39084CAC17FF3C9FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C0DFFB6C3646A4D59AAC5E /* Pods-nubank teste-dummy.m in Sources */,
+				121F75867E27D22CEFF85ACC /* Pods-nubank teste-iCarousel-dummy.m in Sources */,
+				580B65F3A0B07E77285DB788 /* iCarousel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE6318AE94CADCE5D3405C18 /* Sources */ = {
+		A504141C28879CBAE11F2BD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCF2BE98773249D5738AEAA6 /* Pods-nubank testeTests-dummy.m in Sources */,
+				0D3FDA0C73BB53D8B8A88C1D /* Pods-nubank testeTests-iCarousel-dummy.m in Sources */,
+				11E16719B9F356A442D6BCE2 /* iCarousel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B8C6F2F2BE70EA4E39D55A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D47C4411DD58F14011C29A8 /* Alamofire.swift in Sources */,
+				52227EFD5C4E4795C2F12F5E /* Download.swift in Sources */,
+				44B7554B9377063FBAB7434A /* Manager.swift in Sources */,
+				50EDAF38C4AB77CE02DD4B70 /* ParameterEncoding.swift in Sources */,
+				C483B284050B008E63C02B46 /* Pods-nubank testeTests-Alamofire-dummy.m in Sources */,
+				7FFBD0C0D4415D1F0EC5B89C /* Request.swift in Sources */,
+				A4158D533530F9B2B5C2179B /* ResponseSerialization.swift in Sources */,
+				B3FCABDD9210BDAB94FABF70 /* Upload.swift in Sources */,
+				503CE4F52481B6AF8A992847 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6F9E7B4BB13D5E2AA17E52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E7314B22FB44ECA8E8A1BA /* Alamofire.swift in Sources */,
+				E544B44250E7CF2FA38495F4 /* Download.swift in Sources */,
+				B7094AB559FB10F62284DFA9 /* Manager.swift in Sources */,
+				777318DF9697C113CAE967B5 /* ParameterEncoding.swift in Sources */,
+				B115B34E21A5A82CA40F3B68 /* Pods-nubank teste-Alamofire-dummy.m in Sources */,
+				9FD04B8716E3FE8A7F7843BB /* Request.swift in Sources */,
+				74A63A8CBD35B3F4EA9B479A /* ResponseSerialization.swift in Sources */,
+				805A4976D5507A2E7605465E /* Upload.swift in Sources */,
+				7BBE1F2F7C7EC8B35390F6F6 /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		84285D8BCAB0F687F7D3298C /* PBXTargetDependency */ = {
+		154D6C53CB7F7CE5AD775EE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-nubank teste-Alamofire";
-			target = 4E7D4ED214E4A6A5F096FA09 /* Pods-nubank teste-Alamofire */;
-			targetProxy = F354D73C1E4E4FE1E872FF73 /* PBXContainerItemProxy */;
+			target = B294D8D131131A5CB9797AE9 /* Pods-nubank teste-Alamofire */;
+			targetProxy = CAEC94965322A03F26D2479D /* PBXContainerItemProxy */;
 		};
-		E5D2756F1123267409A23F26 /* PBXTargetDependency */ = {
+		85583D67450F9314D13B5D9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-nubank teste-iCarousel";
+			target = 0EE3C23EB61B8F13FBD41E67 /* Pods-nubank teste-iCarousel */;
+			targetProxy = D3FB07FB25B0A2F560392A29 /* PBXContainerItemProxy */;
+		};
+		BB445D8A2B3560723F8AB8D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-nubank testeTests-Alamofire";
-			target = DAB936122811BACA1F4906C1 /* Pods-nubank testeTests-Alamofire */;
-			targetProxy = F68731F36A1A85ED58A95819 /* PBXContainerItemProxy */;
+			target = 4403A1F50CF38FCB0960BC5C /* Pods-nubank testeTests-Alamofire */;
+			targetProxy = 0013580ACF0602F8C6308318 /* PBXContainerItemProxy */;
+		};
+		EBC3427FF74C5BDC124D6A3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-nubank testeTests-iCarousel";
+			target = 9CBA57883F69CC94380ABAD4 /* Pods-nubank testeTests-iCarousel */;
+			targetProxy = 2854E68B8D0CC7D33E18E5A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		074287BF5816B2C9E8D45537 /* Release */ = {
+		0202119A9A7052E14730C459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99AD59DDF69014141A2A9E80 /* Pods-nubank teste-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-nubank teste-Alamofire/Pods-nubank teste-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-nubank teste-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-nubank teste-Alamofire/Pods-nubank teste-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		02727B15FFF6F2FDAD0115C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290F85744DE41AAAB47CE4A9 /* Pods-nubank testeTests-iCarousel-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-nubank testeTests-iCarousel/Pods-nubank testeTests-iCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-nubank testeTests-iCarousel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-nubank testeTests-iCarousel/Pods-nubank testeTests-iCarousel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = iCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		154ACE2223AEFA328C8F3B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3B9DA718F9AA8134869878 /* Pods-nubank teste-iCarousel-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-nubank teste-iCarousel/Pods-nubank teste-iCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-nubank teste-iCarousel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-nubank teste-iCarousel/Pods-nubank teste-iCarousel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = iCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23E75C5DFAC23CB022C5ED1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99AD59DDF69014141A2A9E80 /* Pods-nubank teste-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-nubank teste-Alamofire/Pods-nubank teste-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-nubank teste-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-nubank teste-Alamofire/Pods-nubank teste-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39E96A12FD2D5A3A1E765CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 065CAD44D4DE7ABBA8089832 /* Pods-nubank teste.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-nubank teste/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-nubank teste/Pods-nubank teste.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_nubank_teste;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		501E972E6A25ED513386498B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4D47EC05AC4AE8AA3EC9AA /* Pods-nubank testeTests-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-nubank testeTests-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A315FF6342061FC11ACD534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0032F9016784398F932910C8 /* Pods-nubank testeTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-nubank testeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-nubank testeTests/Pods-nubank testeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_nubank_testeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		953C103EAEF72E0545458533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0AC8820D0CF1BA4A6CB3389 /* Pods-nubank testeTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-nubank testeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-nubank testeTests/Pods-nubank testeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_nubank_testeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA6991177162029133943B04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -511,35 +921,7 @@
 			};
 			name = Release;
 		};
-		11C852627EC9C4AAE9EE9FAF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 781B98D9A5320346BF63258D /* Pods-nubank teste-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-nubank teste-Alamofire/Pods-nubank teste-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-nubank teste-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-nubank teste-Alamofire/Pods-nubank teste-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		161C95ECE20C88C5D071722F /* Debug */ = {
+		BBF17BA1469E841B5B0291BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -578,179 +960,9 @@
 			};
 			name = Debug;
 		};
-		613B5238434B0403663CB70C /* Release */ = {
+		EDD62C92CCFD66085A17DD9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 781B98D9A5320346BF63258D /* Pods-nubank teste-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-nubank teste-Alamofire/Pods-nubank teste-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-nubank teste-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-nubank teste-Alamofire/Pods-nubank teste-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		69142902CA46CAC2457928CF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51D97684C9F06EA8305ECF9D /* Pods-nubank teste.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-nubank teste/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-nubank teste/Pods-nubank teste.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_nubank_teste;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B6B3CF7A4854F5329D41955F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17881E0F459ED06814C44030 /* Pods-nubank testeTests-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-nubank testeTests-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C971BF738741EFE5EED64648 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17881E0F459ED06814C44030 /* Pods-nubank testeTests-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-nubank testeTests-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CF3AD3737A186094E8507FB9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 511A6F72C12F2644EB249CA6 /* Pods-nubank testeTests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-nubank testeTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-nubank testeTests/Pods-nubank testeTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_nubank_testeTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D92D2A727E0FE051BFEBA68F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD21397FB5DEC6FD4A72B022 /* Pods-nubank testeTests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-nubank testeTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-nubank testeTests/Pods-nubank testeTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_nubank_testeTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E545BAB00B8F4DB150528CED /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 214C4132B3341BA4B493AD1D /* Pods-nubank teste.debug.xcconfig */;
+			baseConfigurationReference = 5FBA4B987C01A0AA5E908BC7 /* Pods-nubank teste.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -777,56 +989,155 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		F15054489D8EB91E26305F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4D47EC05AC4AE8AA3EC9AA /* Pods-nubank testeTests-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-nubank testeTests-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-nubank testeTests-Alamofire/Pods-nubank testeTests-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3F61DE2B9EB4D297FA2E15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3B9DA718F9AA8134869878 /* Pods-nubank teste-iCarousel-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-nubank teste-iCarousel/Pods-nubank teste-iCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-nubank teste-iCarousel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-nubank teste-iCarousel/Pods-nubank teste-iCarousel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = iCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F98ACEB5C116B8D2B7C6E0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290F85744DE41AAAB47CE4A9 /* Pods-nubank testeTests-iCarousel-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-nubank testeTests-iCarousel/Pods-nubank testeTests-iCarousel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-nubank testeTests-iCarousel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-nubank testeTests-iCarousel/Pods-nubank testeTests-iCarousel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = iCarousel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11F8669C92FDD434054160B8 /* Build configuration list for PBXNativeTarget "Pods-nubank testeTests-Alamofire" */ = {
+		57C7F0C635D72BC7D9E03CEA /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6B3CF7A4854F5329D41955F /* Debug */,
-				C971BF738741EFE5EED64648 /* Release */,
+				BBF17BA1469E841B5B0291BD /* Debug */,
+				BA6991177162029133943B04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		548D19C907AA18206CA96306 /* Build configuration list for PBXProject "Pods" */ = {
+		58AF84FE729B1AEE4E83C230 /* Build configuration list for PBXNativeTarget "Pods-nubank teste-iCarousel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				161C95ECE20C88C5D071722F /* Debug */,
-				074287BF5816B2C9E8D45537 /* Release */,
+				F3F61DE2B9EB4D297FA2E15F /* Debug */,
+				154ACE2223AEFA328C8F3B8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9BB0E90B24FF2021B1F48F3 /* Build configuration list for PBXNativeTarget "Pods-nubank teste" */ = {
+		9927F16354144589DAC98140 /* Build configuration list for PBXNativeTarget "Pods-nubank teste-Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E545BAB00B8F4DB150528CED /* Debug */,
-				69142902CA46CAC2457928CF /* Release */,
+				0202119A9A7052E14730C459 /* Debug */,
+				23E75C5DFAC23CB022C5ED1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6EE853E0CCB1358A2C6DA3C /* Build configuration list for PBXNativeTarget "Pods-nubank teste-Alamofire" */ = {
+		B3EE8EDEDA379EA64FDCD418 /* Build configuration list for PBXNativeTarget "Pods-nubank teste" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				11C852627EC9C4AAE9EE9FAF /* Debug */,
-				613B5238434B0403663CB70C /* Release */,
+				EDD62C92CCFD66085A17DD9A /* Debug */,
+				39E96A12FD2D5A3A1E765CA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F45E7F2F31CDBF9BC69E1AF7 /* Build configuration list for PBXNativeTarget "Pods-nubank testeTests" */ = {
+		D31554DFD98218567AE2A6C8 /* Build configuration list for PBXNativeTarget "Pods-nubank testeTests-Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF3AD3737A186094E8507FB9 /* Debug */,
-				D92D2A727E0FE051BFEBA68F /* Release */,
+				501E972E6A25ED513386498B /* Debug */,
+				F15054489D8EB91E26305F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE497E6456DB5A59E29CEDBF /* Build configuration list for PBXNativeTarget "Pods-nubank testeTests-iCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02727B15FFF6F2FDAD0115C5 /* Debug */,
+				F98ACEB5C116B8D2B7C6E0B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6C105A5814328280982FF12 /* Build configuration list for PBXNativeTarget "Pods-nubank testeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953C103EAEF72E0545458533 /* Debug */,
+				5A315FF6342061FC11ACD534 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1984D88081F8E7CE7C9F3224 /* Project object */;
+	rootObject = D57A7F820639270214722060 /* Project object */;
 }

@@ -10,6 +10,15 @@
 		1BE71E2E1B4ACCAE002E9479 /* NUInfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE71E2D1B4ACCAE002E9479 /* NUInfoBox.swift */; };
 		1BF674051B4AEDEA00C6C25A /* NUInfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE71E2D1B4ACCAE002E9479 /* NUInfoBox.swift */; };
 		1BF674071B4BEE7A00C6C25A /* NUMonthSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF674061B4BEE7A00C6C25A /* NUMonthSelect.swift */; };
+		1BF674081B4BEEB600C6C25A /* NUMonthSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF674061B4BEE7A00C6C25A /* NUMonthSelect.swift */; };
+		1BF674101B4BFD5E00C6C25A /* NUCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF6740F1B4BFD5E00C6C25A /* NUCollectionViewCell.swift */; };
+		1BF674111B4BFF9C00C6C25A /* NUCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF6740F1B4BFD5E00C6C25A /* NUCollectionViewCell.swift */; };
+		1BF674131B4C68AF00C6C25A /* NUCustomHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF674121B4C68AF00C6C25A /* NUCustomHeaderCell.swift */; };
+		1BF674141B4C69A100C6C25A /* NUCustomHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF674121B4C68AF00C6C25A /* NUCustomHeaderCell.swift */; };
+		1BF674191B4C77A700C6C25A /* nubankbarstatus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF674181B4C77A700C6C25A /* nubankbarstatus.png */; };
+		1BF6741A1B4C77A700C6C25A /* nubankbarstatus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF674181B4C77A700C6C25A /* nubankbarstatus.png */; };
+		1BF6741C1B4C7A2F00C6C25A /* NUAlertError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF6741B1B4C7A2F00C6C25A /* NUAlertError.swift */; };
+		1BF6741D1B4C7A2F00C6C25A /* NUAlertError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF6741B1B4C7A2F00C6C25A /* NUAlertError.swift */; };
 		1BFDE96F1B4ABCD100D4310A /* NUItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFDE96E1B4ABCD100D4310A /* NUItemsTableViewCell.swift */; };
 		1BFDE9701B4AC4D000D4310A /* NUItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFDE96E1B4ABCD100D4310A /* NUItemsTableViewCell.swift */; };
 		30AF86A2F9B63A2CF1365CE7 /* Pods_nubank_testeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9D17E192046C6B7D473160 /* Pods_nubank_testeTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -28,7 +37,6 @@
 		9E1D26FF1B42CA380046C97E /* BillItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26FE1B42CA380046C97E /* BillItem.swift */; };
 		9E1D27011B42CD6E0046C97E /* CustomDateNuBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D27001B42CD6E0046C97E /* CustomDateNuBank.swift */; };
 		9E1D27031B42CEF80046C97E /* NubankState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D27021B42CEF80046C97E /* NubankState.swift */; };
-		9E1D27051B42DC550046C97E /* nubankbarstatus.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E1D27041B42DC550046C97E /* nubankbarstatus.png */; };
 		9E44AFDA1B45E0E10087D99E /* BillServicesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E44AFD91B45E0E10087D99E /* BillServicesTest.swift */; };
 		9E44AFDB1B45E1890087D99E /* BillServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26F81B42C1C60046C97E /* BillServices.swift */; };
 		9E44AFDC1B45E1B60087D99E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7D79801B38B447001E4482 /* RootViewController.swift */; };
@@ -78,6 +86,10 @@
 		153C80E42AF3BA487D951A73 /* Pods-nubank teste.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubank teste.release.xcconfig"; path = "Pods/Target Support Files/Pods-nubank teste/Pods-nubank teste.release.xcconfig"; sourceTree = "<group>"; };
 		1BE71E2D1B4ACCAE002E9479 /* NUInfoBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUInfoBox.swift; sourceTree = "<group>"; };
 		1BF674061B4BEE7A00C6C25A /* NUMonthSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUMonthSelect.swift; sourceTree = "<group>"; };
+		1BF6740F1B4BFD5E00C6C25A /* NUCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUCollectionViewCell.swift; sourceTree = "<group>"; };
+		1BF674121B4C68AF00C6C25A /* NUCustomHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUCustomHeaderCell.swift; sourceTree = "<group>"; };
+		1BF674181B4C77A700C6C25A /* nubankbarstatus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nubankbarstatus.png; sourceTree = "<group>"; };
+		1BF6741B1B4C7A2F00C6C25A /* NUAlertError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUAlertError.swift; sourceTree = "<group>"; };
 		1BFDE96E1B4ABCD100D4310A /* NUItemsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUItemsTableViewCell.swift; sourceTree = "<group>"; };
 		3AA2A48E843D6F5962AA6731 /* Pods-nubank testeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubank testeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nubank testeTests/Pods-nubank testeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B4B5D4DB539017882E866CF /* Pods-nubank teste.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubank teste.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nubank teste/Pods-nubank teste.debug.xcconfig"; sourceTree = "<group>"; };
@@ -97,7 +109,6 @@
 		9E1D26FE1B42CA380046C97E /* BillItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillItem.swift; sourceTree = "<group>"; };
 		9E1D27001B42CD6E0046C97E /* CustomDateNuBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDateNuBank.swift; sourceTree = "<group>"; };
 		9E1D27021B42CEF80046C97E /* NubankState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NubankState.swift; sourceTree = "<group>"; };
-		9E1D27041B42DC550046C97E /* nubankbarstatus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nubankbarstatus.png; sourceTree = "<group>"; };
 		9E44AFD91B45E0E10087D99E /* BillServicesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillServicesTest.swift; sourceTree = "<group>"; };
 		9E7D79791B38B447001E4482 /* nubank teste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nubank teste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7D797D1B38B447001E4482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -142,6 +153,8 @@
 			children = (
 				1BE71E2D1B4ACCAE002E9479 /* NUInfoBox.swift */,
 				1BF674061B4BEE7A00C6C25A /* NUMonthSelect.swift */,
+				1BF6740F1B4BFD5E00C6C25A /* NUCollectionViewCell.swift */,
+				1BF6741B1B4C7A2F00C6C25A /* NUAlertError.swift */,
 			);
 			name = components;
 			sourceTree = "<group>";
@@ -149,6 +162,7 @@
 		1BFDE96D1B4ABC9900D4310A /* cell */ = {
 			isa = PBXGroup;
 			children = (
+				1BF674121B4C68AF00C6C25A /* NUCustomHeaderCell.swift */,
 				1BFDE96E1B4ABCD100D4310A /* NUItemsTableViewCell.swift */,
 			);
 			name = cell;
@@ -210,7 +224,7 @@
 		9E1D27061B42DC590046C97E /* images */ = {
 			isa = PBXGroup;
 			children = (
-				9E1D27041B42DC550046C97E /* nubankbarstatus.png */,
+				1BF674181B4C77A700C6C25A /* nubankbarstatus.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -400,7 +414,7 @@
 			files = (
 				9E7D79881B38B447001E4482 /* Main.storyboard in Resources */,
 				9E7D798D1B38B447001E4482 /* LaunchScreen.xib in Resources */,
-				9E1D27051B42DC550046C97E /* nubankbarstatus.png in Resources */,
+				1BF674191B4C77A700C6C25A /* nubankbarstatus.png in Resources */,
 				9E7D798A1B38B447001E4482 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +423,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BF6741A1B4C77A700C6C25A /* nubankbarstatus.png in Resources */,
 				9E44AFF41B45E43B0087D99E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,11 +540,14 @@
 				9E1D26F41B42C16C0046C97E /* TransformOf.swift in Sources */,
 				9E1D27031B42CEF80046C97E /* NubankState.swift in Sources */,
 				9E9E35991B398C3F00C553D4 /* UIColorExtension.swift in Sources */,
+				1BF6741C1B4C7A2F00C6C25A /* NUAlertError.swift in Sources */,
 				9E1D26F91B42C1C60046C97E /* BillServices.swift in Sources */,
 				1BE71E2E1B4ACCAE002E9479 /* NUInfoBox.swift in Sources */,
 				9E1D26FB1B42C3F90046C97E /* BillApiResponse.swift in Sources */,
 				1BFDE96F1B4ABCD100D4310A /* NUItemsTableViewCell.swift in Sources */,
+				1BF674101B4BFD5E00C6C25A /* NUCollectionViewCell.swift in Sources */,
 				9E7D79831B38B447001E4482 /* DataViewController.swift in Sources */,
+				1BF674131B4C68AF00C6C25A /* NUCustomHeaderCell.swift in Sources */,
 				9E1D26EF1B42C16C0046C97E /* Mapper.swift in Sources */,
 				9E9E359C1B398F8200C553D4 /* Bill.swift in Sources */,
 				9E1D26F51B42C16C0046C97E /* TransformType.swift in Sources */,
@@ -554,15 +572,19 @@
 				9E44AFED1B45E1F20087D99E /* CustomDateNuBank.swift in Sources */,
 				9E44AFDD1B45E1B80087D99E /* DataViewController.swift in Sources */,
 				9E44AFDE1B45E1BB0087D99E /* ModelController.swift in Sources */,
+				1BF6741D1B4C7A2F00C6C25A /* NUAlertError.swift in Sources */,
 				9E44AFE51B45E1F20087D99E /* Mapper.swift in Sources */,
+				1BF674111B4BFF9C00C6C25A /* NUCollectionViewCell.swift in Sources */,
 				9E44AFEE1B45E1F20087D99E /* NubankState.swift in Sources */,
 				9E44AFEB1B45E1F20087D99E /* TransformType.swift in Sources */,
+				1BF674141B4C69A100C6C25A /* NUCustomHeaderCell.swift in Sources */,
 				9E44AFDF1B45E1BF0087D99E /* AppDelegate.swift in Sources */,
 				9E44AFE81B45E1F20087D99E /* DateTransform.swift in Sources */,
 				9E44AFE71B45E1F20087D99E /* ToJSON.swift in Sources */,
 				9E44AFE21B45E1DD0087D99E /* Summary.swift in Sources */,
 				9E44AFE61B45E1F20087D99E /* Operators.swift in Sources */,
 				1BF674051B4AEDEA00C6C25A /* NUInfoBox.swift in Sources */,
+				1BF674081B4BEEB600C6C25A /* NUMonthSelect.swift in Sources */,
 				9E44AFDC1B45E1B60087D99E /* RootViewController.swift in Sources */,
 				9E7D79991B38B447001E4482 /* nubank_testeTests.swift in Sources */,
 				9E44AFE11B45E1DD0087D99E /* BillApiResponse.swift in Sources */,
