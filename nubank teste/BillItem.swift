@@ -28,9 +28,25 @@ class BillItem: Mappable {
         charges  <= map["charges"]
         href  <= map["href"]
         index  <= map["index"]
-        postDate  <= (map["post_date"], DateTransform())
+        postDate  <= (map["post_date"], CustomDateNuBank())
         title  <= map["title"]
 
+    }
+    
+    func formatDataVenc(dt:NSDate) -> String {
+        let calendar = NSCalendar.currentCalendar()
+        let formatter = NSDateFormatter()
+        let components = calendar.components(.DayCalendarUnit, fromDate:  dt)
+        formatter.locale = NSLocale(localeIdentifier: "pt_BR_POSIX")
+        formatter.dateFormat = "MMM"
+        
+        
+        var strVenc = String(format: "%d %@", components.day , formatter.stringFromDate(dt).uppercaseString)
+        
+        
+        
+        
+        return strVenc
     }
 
 }

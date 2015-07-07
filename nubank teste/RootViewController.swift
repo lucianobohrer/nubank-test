@@ -17,6 +17,8 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.pageViewController?.view.setTranslatesAutoresizingMaskIntoConstraints(false)
+        self.pageViewController?.view.setNeedsLayout()
         // Do any additional setup after loading the view, typically from a nib.
         // Configure the page view controller and add it as a child view controller.
         billServices = BillServices()
@@ -37,6 +39,8 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         
         self.pageViewController = UIPageViewController(transitionStyle: .Scroll, navigationOrientation: .Horizontal, options: nil)
         self.pageViewController!.delegate = self
+        self.pageViewController?.view.autoresizesSubviews = false
+        
         
         let startingViewController: DataViewController = self.modelController.viewControllerAtIndex(0, storyboard: self.storyboard!)!
         let viewControllers = [startingViewController]
@@ -59,6 +63,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         var topView:UIView = UIView()
         topView.frame = CGRectMake(0, 0, self.view.frame.width, 80)
         topView.backgroundColor = UIColor.clearColor()
+        topView.translatesAutoresizingMaskIntoConstraints()
         var backgroundImage:UIImage = UIImage(named:"nubankbarstatus")!;
         
         UIGraphicsBeginImageContext(topView.bounds.size);

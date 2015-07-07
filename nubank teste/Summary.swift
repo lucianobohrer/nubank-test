@@ -10,9 +10,6 @@ import UIKit
 
 class Summary: Mappable {
     
-    
-   
-    
     var closeDate: NSDate?
     var dueDate: NSDate?
     var interest: Double?

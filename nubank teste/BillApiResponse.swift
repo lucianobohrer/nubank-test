@@ -47,10 +47,10 @@ class BillApiResponse: Mappable {
              return "#40AAB9"
         }
         if(state.rawValue == "closed") {
-             return "#7ED321"
+            return "#E5615C"
         }
         if(state.rawValue == "overdue") {
-             return "#E5615C"
+            return "#7ED321"
         }
         if(state.rawValue == "future") {
              return "#F5A623"

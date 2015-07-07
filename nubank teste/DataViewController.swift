@@ -13,11 +13,14 @@ class DataViewController: UIViewController,UITableViewDataSource, UITableViewDel
     @IBOutlet weak var headerView: UIView!
     @IBOutlet weak var lblValue: UILabel!
     @IBOutlet weak var lblDate: UILabel!
+    @IBOutlet weak var detailView: NUInfoBox!
     var dataObject: AnyObject?
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.setTranslatesAutoresizingMaskIntoConstraints(true)
+        self.view.setNeedsLayout()
         if let bill = dataObject as? BillApiResponse {
             self.headerView.backgroundColor = UIColor(rgba: bill.colorCode())
             self.lblValue.text = bill.formatCurrency(bill.summary.totalBalance!)
@@ -51,10 +54,29 @@ class DataViewController: UIViewController,UITableViewDataSource, UITableViewDel
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier("billItem") as! UITableViewCell
+        var cell:NUItemsTableViewCell = tableView.dequeueReusableCellWithIdentifier("billItem") as! NUItemsTableViewCell
         if let bill = dataObject as? BillApiResponse {
             var line = bill.lines![indexPath.row] as BillItem
-            cell.textLabel?.text = line.title
+            cell.lblName?.text = line.title
+            detailView.configDetail(bill)
+            cell.lblDate?.text = line.formatDataVenc(line.postDate!)
+            if(line.amount >= 0){
+                cell.lblValue?.text = bill.formatCurrency(line.amount!)
+                cell.configNormal()
+            } else {
+                cell.lblValue?.text = bill.formatCurrency(-line.amount!)
+                cell.configRefund()
+            }
+            
+            if(indexPath.row == 0 && (indexPath.row == (bill.lines!.count - 1))){
+                cell.configUnique()
+            } else if(indexPath.row == 0){
+                cell.configFirst()
+            } else if(indexPath.row == (bill.lines!.count - 1)) {
+                cell.configLast()
+            } else {
+                cell.configMiddle()
+            }
         }
         return cell
     }

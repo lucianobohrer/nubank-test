@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BE71E2E1B4ACCAE002E9479 /* NUInfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE71E2D1B4ACCAE002E9479 /* NUInfoBox.swift */; };
+		1BF674051B4AEDEA00C6C25A /* NUInfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE71E2D1B4ACCAE002E9479 /* NUInfoBox.swift */; };
+		1BF674071B4BEE7A00C6C25A /* NUMonthSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF674061B4BEE7A00C6C25A /* NUMonthSelect.swift */; };
+		1BFDE96F1B4ABCD100D4310A /* NUItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFDE96E1B4ABCD100D4310A /* NUItemsTableViewCell.swift */; };
+		1BFDE9701B4AC4D000D4310A /* NUItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFDE96E1B4ABCD100D4310A /* NUItemsTableViewCell.swift */; };
 		30AF86A2F9B63A2CF1365CE7 /* Pods_nubank_testeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9D17E192046C6B7D473160 /* Pods_nubank_testeTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		9E1D26EE1B42C16C0046C97E /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26E31B42C16C0046C97E /* FromJSON.swift */; };
 		9E1D26EF1B42C16C0046C97E /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D26E41B42C16C0046C97E /* Mapper.swift */; };
@@ -71,6 +76,9 @@
 
 /* Begin PBXFileReference section */
 		153C80E42AF3BA487D951A73 /* Pods-nubank teste.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubank teste.release.xcconfig"; path = "Pods/Target Support Files/Pods-nubank teste/Pods-nubank teste.release.xcconfig"; sourceTree = "<group>"; };
+		1BE71E2D1B4ACCAE002E9479 /* NUInfoBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUInfoBox.swift; sourceTree = "<group>"; };
+		1BF674061B4BEE7A00C6C25A /* NUMonthSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUMonthSelect.swift; sourceTree = "<group>"; };
+		1BFDE96E1B4ABCD100D4310A /* NUItemsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUItemsTableViewCell.swift; sourceTree = "<group>"; };
 		3AA2A48E843D6F5962AA6731 /* Pods-nubank testeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubank testeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nubank testeTests/Pods-nubank testeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B4B5D4DB539017882E866CF /* Pods-nubank teste.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubank teste.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nubank teste/Pods-nubank teste.debug.xcconfig"; sourceTree = "<group>"; };
 		8F07849D1AA25E23895F6DB3 /* Pods-nubank testeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubank testeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nubank testeTests/Pods-nubank testeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +137,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BE71E2C1B4ACC82002E9479 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				1BE71E2D1B4ACCAE002E9479 /* NUInfoBox.swift */,
+				1BF674061B4BEE7A00C6C25A /* NUMonthSelect.swift */,
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
+		1BFDE96D1B4ABC9900D4310A /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				1BFDE96E1B4ABCD100D4310A /* NUItemsTableViewCell.swift */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
 		25633CB6AB0C4C4A15CB83CB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +238,8 @@
 		9E7D797B1B38B447001E4482 /* nubank teste */ = {
 			isa = PBXGroup;
 			children = (
+				1BE71E2C1B4ACC82002E9479 /* components */,
+				1BFDE96D1B4ABC9900D4310A /* cell */,
 				9E1D26F71B42C1AD0046C97E /* services */,
 				9E9E359A1B398F4000C553D4 /* Model */,
 				9E9E35971B398C1F00C553D4 /* Uitls */,
@@ -493,12 +520,15 @@
 				9E7D79851B38B447001E4482 /* ModelController.swift in Sources */,
 				9E1D26F11B42C16C0046C97E /* ToJSON.swift in Sources */,
 				9E1D27011B42CD6E0046C97E /* CustomDateNuBank.swift in Sources */,
+				1BF674071B4BEE7A00C6C25A /* NUMonthSelect.swift in Sources */,
 				9E1D26FD1B42C84B0046C97E /* Summary.swift in Sources */,
 				9E1D26F41B42C16C0046C97E /* TransformOf.swift in Sources */,
 				9E1D27031B42CEF80046C97E /* NubankState.swift in Sources */,
 				9E9E35991B398C3F00C553D4 /* UIColorExtension.swift in Sources */,
 				9E1D26F91B42C1C60046C97E /* BillServices.swift in Sources */,
+				1BE71E2E1B4ACCAE002E9479 /* NUInfoBox.swift in Sources */,
 				9E1D26FB1B42C3F90046C97E /* BillApiResponse.swift in Sources */,
+				1BFDE96F1B4ABCD100D4310A /* NUItemsTableViewCell.swift in Sources */,
 				9E7D79831B38B447001E4482 /* DataViewController.swift in Sources */,
 				9E1D26EF1B42C16C0046C97E /* Mapper.swift in Sources */,
 				9E9E359C1B398F8200C553D4 /* Bill.swift in Sources */,
@@ -518,6 +548,7 @@
 				9E44AFDA1B45E0E10087D99E /* BillServicesTest.swift in Sources */,
 				9E44AFDB1B45E1890087D99E /* BillServices.swift in Sources */,
 				9E44AFE31B45E1DD0087D99E /* BillItem.swift in Sources */,
+				1BFDE9701B4AC4D000D4310A /* NUItemsTableViewCell.swift in Sources */,
 				9E44AFEF1B45E1F80087D99E /* UIColorExtension.swift in Sources */,
 				9E44AFEA1B45E1F20087D99E /* TransformOf.swift in Sources */,
 				9E44AFED1B45E1F20087D99E /* CustomDateNuBank.swift in Sources */,
@@ -531,6 +562,7 @@
 				9E44AFE71B45E1F20087D99E /* ToJSON.swift in Sources */,
 				9E44AFE21B45E1DD0087D99E /* Summary.swift in Sources */,
 				9E44AFE61B45E1F20087D99E /* Operators.swift in Sources */,
+				1BF674051B4AEDEA00C6C25A /* NUInfoBox.swift in Sources */,
 				9E44AFDC1B45E1B60087D99E /* RootViewController.swift in Sources */,
 				9E7D79991B38B447001E4482 /* nubank_testeTests.swift in Sources */,
 				9E44AFE11B45E1DD0087D99E /* BillApiResponse.swift in Sources */,
