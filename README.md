@@ -47,4 +47,4 @@ Utilizei o XCTest nativo e integrado no XCode, porém não utilizei KIF para tes
 
 ### Video de Execução ###
 
-![Video](http://www.addictedtoibiza.com/wp-content/uploads/2012/12/example.png)
+![Video](https://bytebucket.org/digoreis/nubank/raw/0b554406129437ca786a59596d45de509d271b09/testenubank1.gif?token=18515fefbee48d15ef51b8f741d6f58372a4e123)
