@@ -71,8 +71,8 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         let bill = self.pageData[index] as? BillApiResponse
         delegate.setArrowColor(bill!.colorCode())
  
-
         index--
+        
         return self.viewControllerAtIndex(index, storyboard: viewController.storyboard!)
     }
 
@@ -83,7 +83,7 @@ class ModelController: NSObject, UIPageViewControllerDataSource {
         }
         let bill = self.pageData[index] as? BillApiResponse
         delegate.setArrowColor(bill!.colorCode())
- 
+        
         index++
         if index == self.pageData.count {
             return nil

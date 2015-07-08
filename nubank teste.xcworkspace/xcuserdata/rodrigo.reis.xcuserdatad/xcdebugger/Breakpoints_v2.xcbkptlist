@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nubank teste/RootViewController.swift"
-            timestampString = "457997314.486368"
+            timestampString = "458057636.606171"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
             landmarkName = "pageViewController(_:didFinishAnimating:previousViewControllers:transitionCompleted:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -33,6 +33,54 @@
             endingLineNumber = "34"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nubank teste/NUMonthSelect.swift"
+            timestampString = "458057603.367846"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "carousel(_:viewForItemAtIndex:reusingView:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nubank_teste.NUMonthSelect.carousel (nubank_teste.NUMonthSelect)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.iCarousel&gt;, viewForItemAtIndex : Swift.Int, reusingView : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIView&gt;) -&gt; Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIView&gt;"
+                  moduleName = "nubank teste"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo.reis/Bitbucket/nubank/nubank%20teste/NUMonthSelect.swift"
+                  timestampString = "458073716.835382"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "3937">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nubank_testeTests.NUMonthSelect.carousel (nubank_testeTests.NUMonthSelect)(Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.iCarousel&gt;, viewForItemAtIndex : Swift.Int, reusingView : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIView&gt;) -&gt; Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UIView&gt;"
+                  moduleName = "nubank testeTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rodrigo.reis/Bitbucket/nubank/nubank%20teste/NUMonthSelect.swift"
+                  timestampString = "458073716.96234"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "3937">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

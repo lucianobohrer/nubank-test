@@ -66,7 +66,8 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         self.view.gestureRecognizers = self.pageViewController!.gestureRecognizers
         
         self.topview = NUMonthSelect(frame: CGRectMake(0, 0, self.view.frame.width, 80))
-        
+        self.topview.delegate = self
+        self.topview.createCollection((self.modelController.pageData as! [BillApiResponse]))
         self.view.addSubview(topview!)
 
     }
@@ -107,8 +108,14 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
     }
     
     func pageViewController(pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [AnyObject], transitionCompleted completed: Bool) {
-      //topview.collectionMonthView?.selectItemAtIndexPath(NSIndexPath(forRow: 2, inSection: 0), animated: true, scrollPosition: UICollectionViewScrollPosition.None)
-       // topview.collectionMonthView.//collectionView(collectionView: self.topview.collectionMonthView, didSelectItemAtIndexPath: NSIndexPath(forRow: 2, inSection: 0))
+      let index = self.modelController.indexOfViewController(pageViewController.viewControllers[0] as! DataViewController )
+        self.topview.carousel.scrollToItemAtIndex(index, animated: true)
+    }
+    
+    func setPage(index:Int){
+        let startingViewController: DataViewController = self.modelController.viewControllerAtIndex(index, storyboard: self.storyboard!)!
+        let viewControllers = [startingViewController]
+        self.pageViewController!.setViewControllers(viewControllers, direction: .Forward, animated: false, completion: {done in })
     }
 
 

@@ -7,15 +7,21 @@
 //
 
 import UIKit
+import iCarousel
 
-class NUMonthSelect: UIView, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
+class NUMonthSelect: UIView, iCarouselDataSource , iCarouselDelegate {
     
-    @IBOutlet var collectionMonthView: UICollectionView?
+    
+     @IBOutlet var carousel : iCarousel!
+    var delegate:RootViewController!
+    
+    var billList:[BillApiResponse]!
     
     var lista = ["ABR","MAI","JUN","JUL"]
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+       
         self.awakeFromNib()
     }
 
@@ -42,53 +48,75 @@ class NUMonthSelect: UIView, UICollectionViewDelegateFlowLayout, UICollectionVie
         
         self.backgroundColor = UIColor(patternImage: image)
         
-        self.createCollection()
-        
-    }
-    
-    func createCollection(){
-        
-        let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
-        layout.sectionInset = UIEdgeInsets(top: 20, left: 10, bottom: 10, right: 10)
-        layout.itemSize = CGSize(width: 40, height: 40)
-        layout.scrollDirection = UICollectionViewScrollDirection.Horizontal
-        collectionMonthView = UICollectionView(frame: self.frame, collectionViewLayout: layout)
-        collectionMonthView!.dataSource = self
-        collectionMonthView!.delegate = self
-        collectionMonthView!.registerClass(NUCollectionViewCell.self, forCellWithReuseIdentifier: "CollectionViewCell")
-        collectionMonthView!.backgroundColor = UIColor.clearColor()
-        collectionMonthView!.showsHorizontalScrollIndicator = false
-        
-        var collectionViewWidth:CGFloat = CGRectGetWidth(collectionMonthView!.bounds);
-        collectionMonthView?.contentInset = UIEdgeInsetsMake(0, collectionViewWidth/2-layout.itemSize.width, 0 , collectionViewWidth/2)
-        
-        
-        self.addSubview(collectionMonthView!)
-    }
-    
-    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
-        return 1
-    }
-    
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return lista.count
-    }
-    
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("CollectionViewCell", forIndexPath: indexPath) as! NUCollectionViewCell
-        cell.lblText.text = lista[indexPath.row]
-        return cell
-    }
-    
-    
-    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        
-        var collectionViewWidth:CGFloat = CGRectGetWidth(collectionMonthView!.bounds);
        
         
-        let cell:NUCollectionViewCell = collectionMonthView!.cellForItemAtIndexPath(indexPath) as! NUCollectionViewCell
-        let offset:CGPoint = CGPointMake( cell.center.x - (collectionViewWidth / 2 - 10), 0);
-        collectionMonthView?.setContentOffset(offset, animated: true)
+        
+    }
+    
+    func createCollection(var items:[BillApiResponse]){
+        self.billList = items
+        
+        self.carousel = iCarousel(frame: self.frame)
+        self.carousel.dataSource = self
+        self.carousel.delegate = self
+        self.addSubview(self.carousel)
+        carousel.type = iCarouselType.Linear
+    }
+    
+    func numberOfItemsInCarousel(carousel: iCarousel!) -> Int
+    {
+        return billList.count
+    }
+    
+    func carousel(carousel: iCarousel!, viewForItemAtIndex index: Int, reusingView view: UIView!) -> UIView!
+    {
+        var label: UILabel? = nil
+        var bill:BillApiResponse = billList[index]
+        
+        //create new view if no view is available for recycling
+        if (view == nil)
+        {
+            
+            var viewReuse = UIView(frame:CGRectMake(0, 0, 50, 50))
+            viewReuse.contentMode = .Center
+            
+            label = UILabel(frame:viewReuse.bounds)
+            label!.backgroundColor = UIColor.clearColor()
+            label!.textAlignment = .Center
+            label!.font = UIFont.boldSystemFontOfSize(16)
+            label!.textColor = UIColor(rgba: bill.colorCode())
+            label!.tag = 1
+            viewReuse.addSubview(label!)
+            label?.text = bill.summary.getMonth(bill.summary.closeDate!)
+            return viewReuse
+        }
+        else
+        {
+            label = view.viewWithTag(1) as? UILabel
+            label?.text = bill.summary.getMonth(bill.summary.closeDate!)
+        }
+        
+       
+        
+        
+        return view
+    }
+    
+    func carousel(carousel: iCarousel!, valueForOption option: iCarouselOption, withDefault value: CGFloat) -> CGFloat
+    {
+        if (option == iCarouselOption.Spacing)
+        {
+            return value * 1.1
+        }
+        return value
+    }
+    
+    func carousel(carousel:iCarousel!, didSelectItemAtIndex index:Int) {
+        delegate.setPage(index)
+    }
+    
+    func carouselCurrentItemIndexDidChange(carousel: iCarousel!) {
+        delegate.setPage(carousel.currentItemIndex)
     }
     
     

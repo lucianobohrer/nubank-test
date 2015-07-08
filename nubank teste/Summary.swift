@@ -41,6 +41,18 @@ class Summary: Mappable {
         
     }
     
+    func closeDateFormat(dt:NSDate) -> String {
+        
+        let calendar = NSCalendar.currentCalendar()
+        let formatter = NSDateFormatter()
+        let components = calendar.components(.DayCalendarUnit, fromDate:  dt)
+        formatter.locale = NSLocale(localeIdentifier: "pt_BR_POSIX")
+        formatter.dateFormat = "MMMM"
+        
+        
+        return  String(format: "FECHAMENTO EM %d DE %@", components.day , formatter.stringFromDate(dt).uppercaseString)
+    }
+    
     func formatDataVenc(dt:NSDate) -> String {
         let calendar = NSCalendar.currentCalendar()
        let formatter = NSDateFormatter()
@@ -66,6 +78,20 @@ class Summary: Mappable {
         
         
         var strVenc = String(format: "%d %@", components.day , formatter.stringFromDate(dt).uppercaseString)
+        
+        
+        
+        
+        return strVenc
+    }
+    
+    func getMonth(dt:NSDate) -> String {
+        let formatter = NSDateFormatter()
+        formatter.locale = NSLocale(localeIdentifier: "pt_BR_POSIX")
+        formatter.dateFormat = "MMM"
+        
+        
+        var strVenc = String(format: "%@",formatter.stringFromDate(dt).uppercaseString)
         
         
         

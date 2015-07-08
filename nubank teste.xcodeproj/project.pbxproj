@@ -19,6 +19,7 @@
 		1BF6741A1B4C77A700C6C25A /* nubankbarstatus.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF674181B4C77A700C6C25A /* nubankbarstatus.png */; };
 		1BF6741C1B4C7A2F00C6C25A /* NUAlertError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF6741B1B4C7A2F00C6C25A /* NUAlertError.swift */; };
 		1BF6741D1B4C7A2F00C6C25A /* NUAlertError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF6741B1B4C7A2F00C6C25A /* NUAlertError.swift */; };
+		1BF6741F1B4C856A00C6C25A /* nubank_teste-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 1BF6741E1B4C850E00C6C25A /* nubank_teste-Bridging-Header.h */; };
 		1BFDE96F1B4ABCD100D4310A /* NUItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFDE96E1B4ABCD100D4310A /* NUItemsTableViewCell.swift */; };
 		1BFDE9701B4AC4D000D4310A /* NUItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFDE96E1B4ABCD100D4310A /* NUItemsTableViewCell.swift */; };
 		30AF86A2F9B63A2CF1365CE7 /* Pods_nubank_testeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9D17E192046C6B7D473160 /* Pods_nubank_testeTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -90,6 +91,7 @@
 		1BF674121B4C68AF00C6C25A /* NUCustomHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUCustomHeaderCell.swift; sourceTree = "<group>"; };
 		1BF674181B4C77A700C6C25A /* nubankbarstatus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nubankbarstatus.png; sourceTree = "<group>"; };
 		1BF6741B1B4C7A2F00C6C25A /* NUAlertError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUAlertError.swift; sourceTree = "<group>"; };
+		1BF6741E1B4C850E00C6C25A /* nubank_teste-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "nubank_teste-Bridging-Header.h"; sourceTree = "<group>"; };
 		1BFDE96E1B4ABCD100D4310A /* NUItemsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NUItemsTableViewCell.swift; sourceTree = "<group>"; };
 		3AA2A48E843D6F5962AA6731 /* Pods-nubank testeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubank testeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nubank testeTests/Pods-nubank testeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B4B5D4DB539017882E866CF /* Pods-nubank teste.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nubank teste.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nubank teste/Pods-nubank teste.debug.xcconfig"; sourceTree = "<group>"; };
@@ -274,6 +276,7 @@
 			children = (
 				9E1D27061B42DC590046C97E /* images */,
 				9E7D797D1B38B447001E4482 /* Info.plist */,
+				1BF6741E1B4C850E00C6C25A /* nubank_teste-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -555,6 +558,7 @@
 				9E1D26F61B42C16C0046C97E /* URLTransform.swift in Sources */,
 				9E7D797F1B38B447001E4482 /* AppDelegate.swift in Sources */,
 				9E1D26EE1B42C16C0046C97E /* FromJSON.swift in Sources */,
+				1BF6741F1B4C856A00C6C25A /* nubank_teste-Bridging-Header.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -712,6 +716,7 @@
 				INFOPLIST_FILE = "nubank teste/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./nubank teste/nubank_teste-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -723,6 +728,7 @@
 				INFOPLIST_FILE = "nubank teste/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./nubank teste/nubank_teste-Bridging-Header.h";
 			};
 			name = Release;
 		};

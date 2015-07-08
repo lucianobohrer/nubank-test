@@ -1,13 +1,13 @@
 PODS:
   - Alamofire (1.2.3)
-  - iCarousel (1.7.6)
+  - iCarousel (1.8.1)
 
 DEPENDENCIES:
   - Alamofire (~> 1.2)
-  - iCarousel (~> 1.7.6)
+  - iCarousel
 
 SPEC CHECKSUMS:
   Alamofire: 5550bf0b575ed1a4bf9be572f9463e1015cc169e
-  iCarousel: ddd7f142c7c2f3429b0ce5fb8ea37f4a059394cd
+  iCarousel: dace1cb858e3f4dc2614bee3201041247f82feda
 
 COCOAPODS: 0.37.1

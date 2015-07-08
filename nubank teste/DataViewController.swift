@@ -13,6 +13,7 @@ class DataViewController: UIViewController,UITableViewDataSource, UITableViewDel
     @IBOutlet weak var headerView: UIView!
     @IBOutlet weak var lblValue: UILabel!
     @IBOutlet weak var lblDate: UILabel!
+    @IBOutlet weak var lblInfo: UILabel!
     @IBOutlet weak var detailView: NUInfoBox!
     var dataObject: AnyObject?
 
@@ -25,6 +26,11 @@ class DataViewController: UIViewController,UITableViewDataSource, UITableViewDel
             self.headerView.backgroundColor = UIColor(rgba: bill.colorCode())
             self.lblValue.text = bill.formatCurrency(bill.summary.totalBalance!)
             self.lblDate.text = bill.summary.formatDataVenc(bill.summary.dueDate!)
+            if(bill.state == BillStates.Open){
+                self.lblInfo.text = bill.summary.closeDateFormat(bill.summary.closeDate!)
+            } else if(bill.state == BillStates.Future) {
+               self.lblInfo.text = "FATURA PARCIAL"
+            }
         }
         // Do any additional setup after loading the view, typically from a nib.
     }
