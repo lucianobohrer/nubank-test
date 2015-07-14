@@ -3,7 +3,8 @@
 O projeto foi desenvolvido no prazo de duas semanas para avaliação de nível técnico de seleção.
 
 O desafio está contido na url :
-[Link do documento](https://docs.google.com/document/d/14g-Fg1vtvSiN8phpVnAONGGnyIFhhQLhadeG3nBRDaw/edit?usp=sharing)
+[Link do Documento](https://github.com/digoreis/nubank-test/blob/master/resources/iOS-MobileSoftwareEngineer-Test.pdf)
+[Link da Interface](https://github.com/digoreis/nubank-test/blob/master/resources/bill_interface.pdf)
 
 Abaixo algumas informações e constatações sobre o projeto.
 
@@ -47,4 +48,4 @@ Utilizei o XCTest nativo e integrado no XCode, porém não utilizei KIF para tes
 
 ### Video de Execução ###
 
-![Video](https://bytebucket.org/digoreis/nubank/raw/0b554406129437ca786a59596d45de509d271b09/testenubank1.gif?token=18515fefbee48d15ef51b8f741d6f58372a4e123)
+![Video](https://github.com/digoreis/nubank-test/blob/master/testenubank1.gif)
